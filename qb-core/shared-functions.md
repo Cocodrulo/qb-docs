@@ -1,5 +1,5 @@
 ---
-description: Use our predefined function to make more efficient your coding
+description: Use our predefined functions to make more efficient your coding
 ---
 
 # 📜 Shared Functions
