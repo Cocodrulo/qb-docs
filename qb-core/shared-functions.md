@@ -5,7 +5,7 @@ description: Use our predefined function to make more efficient your coding
 # 📜 Shared Functions
 
 {% hint style="info" %}
-All of the functions below are part of the QBCore.Shared module, sothey can be access doing `QBCore.Shared.FUNCTIONAME`
+All of the functions below are part of the QBCore.Shared module, so you must have imported QBCore before using them.
 {% endhint %}
 
 ### RandomStr
