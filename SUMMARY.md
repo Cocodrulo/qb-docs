@@ -23,6 +23,7 @@
 ## QB-Core
 
 -   [📜 Shared Functions](qb-core/shared-functions.md)
+-   [📄 Shared Data](qb-core/shared-data.md)
 -   [↗️ Shared Exports](qb-core/shared-exports.md)
 -   [💬 DrawText](qb-core/drawtext.md)
 -   [📊 Player Data](qb-core/player-data.md)
