@@ -24,7 +24,7 @@
 
 -   [📜 Shared Functions](qb-core/shared-functions.md)
 -   [📄 Shared Data](qb-core/shared-data.md)
--   [↗️ Shared Exports](qb-core/shared-exports.md)
+-   [↗️ Exports](qb-core/exports.md)
 -   [💬 DrawText](qb-core/drawtext.md)
 -   [📊 Player Data](qb-core/player-data.md)
 -   [🎮 Client Event Reference](qb-core/client-event-reference.md)
