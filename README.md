@@ -13,7 +13,9 @@ description: >-
 
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://www.twitch.tv/kakarotqb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/c/QBCoreFramework) <a href="https://www.reddit.com/r/qbcore/">
 <img src="https://img.shields.io/badge/reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit">
-</a> [![Ko-Fi](https://img.shields.io/badge/Ko-fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/kakarot)
+</a> <a href="https://ko-fi.com/kakarot" target="_blank">
+<img src="https://img.shields.io/badge/Ko-fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-Fi">
+</a>
 
 ## Getting Started
 
