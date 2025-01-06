@@ -96,7 +96,3 @@ exports['qb-core']:KeyPressed()
 ### GetCoreVersion
 
 ### ExploitBan
-
-```
-
-```
