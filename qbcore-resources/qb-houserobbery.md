@@ -6,7 +6,7 @@ description: Doesn't look like anyone's home! Don't mind if I do
 
 ## Introduction
 
-* Allows players to use a lockpick at specific coordinates within an in-game time range and enter a house where they can search cabinets, drawers, etc. for items!
+-   Allows players to use a lockpick at specific coordinates within an in-game time range and enter a house where they can search cabinets, drawers, etc. for items!
 
 {% hint style="warning" %}
 This resource relies on qb-lockpick and qb-skillbar for the mini games and qb-interior for the export to spawn the configured shell
@@ -87,7 +87,7 @@ Config.Houses = {
         ["furniture"] = { -- these are the searchable locations
             [1] = {
                 ["type"] = "cabin", -- type of searchable location
-                ["coords"] = { -- where 
+                ["coords"] = { -- where
                     ["x"] = 4.15,
                     ["y"] = 7.82,
                     ["z"] = 1.0

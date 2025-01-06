@@ -6,9 +6,9 @@ description: One person's garbage is another's..
 
 ## Introduction
 
-* Players can put their car on display for others to purchase it for the price they set
-* Stores occasion vehicles in the database so they stay there till sold or the seller reclaims their vehicle
-* Players can sell their vehicles outright for the price of the vehicle divided by 2 found in [shared.md](../qb-core/shared.md "mention")
+-   Players can put their car on display for others to purchase it for the price they set
+-   Stores occasion vehicles in the database so they stay there till sold or the seller reclaims their vehicle
+-   Players can sell their vehicles outright for the price of the vehicle divided by 2 found in [shared.md](../qb-core/shared.md "mention")
 
 ## Preview
 

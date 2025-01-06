@@ -6,7 +6,7 @@ description: Hunting for treasure in the deep blue sea!
 
 ## Introduction
 
-* This resource lets your players go diving in the ocean for coral which they can sell
+-   This resource lets your players go diving in the ocean for coral which they can sell
 
 ## Configuration
 
@@ -120,9 +120,9 @@ Config.SellLocations = {
 
 ## Items
 
-* diving\_gear - Diving suit
-* diving\_fill - Oxygen bottle
+-   diving_gear - Diving suit
+-   diving_fill - Oxygen bottle
 
 ## Commands
 
-* /divingsuit - Equips/unequips the diving suit
+-   /divingsuit - Equips/unequips the diving suit

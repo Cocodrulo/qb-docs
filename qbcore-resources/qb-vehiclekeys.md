@@ -6,9 +6,9 @@ description: Don't lock them in your car
 
 ## Introduction
 
-* Handles the logic of locking/lockpicking and robbing cars
-* Uses [qb-lockpick.md](qb-lockpick.md "mention") for the lockpicking minigame
-* Aim a gun at a ped driver for a chance to rob their keys
+-   Handles the logic of locking/lockpicking and robbing cars
+-   Uses [qb-lockpick.md](qb-lockpick.md "mention") for the lockpicking minigame
+-   Aim a gun at a ped driver for a chance to rob their keys
 
 ## Configuration
 

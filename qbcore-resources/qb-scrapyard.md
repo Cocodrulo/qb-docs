@@ -6,7 +6,7 @@ description: Hope you got your tetanus shot
 
 ## Introduction
 
-* Allows players to go to the "list" location from the config and receive an email with a car to find and scrap for reward items!
+-   Allows players to go to the "list" location from the config and receive an email with a car to find and scrap for reward items!
 
 {% hint style="success" %}
 This job does not pay out money by default, it pairs well with the crafting system from [qb-inventory.md](qb-inventory.md "mention")

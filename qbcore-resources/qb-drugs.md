@@ -6,7 +6,7 @@ description: Got any of that good stuff?
 
 ## Introduction
 
-* Create dealers that players can interact with and purchase items or accept delivery jobs to earn rewards. Also included is "corner-selling" which allows players to sell drugs to NPC's for configured prices
+-   Create dealers that players can interact with and purchase items or accept delivery jobs to earn rewards. Also included is "corner-selling" which allows players to sell drugs to NPC's for configured prices
 
 ## Configuration
 
@@ -85,7 +85,7 @@ Config.DeliveryItems = { -- reward items for deliveries (reference above)
 
 ## Commands
 
-* /newdealer - Create a new dealer at your coordinates
-* /deletedealer - Delete a dealer from the database
-* /dealers - Get a list of current dealers
-* /dealergoto - Teleport to a dealer
+-   /newdealer - Create a new dealer at your coordinates
+-   /deletedealer - Delete a dealer from the database
+-   /dealers - Get a list of current dealers
+-   /dealergoto - Teleport to a dealer

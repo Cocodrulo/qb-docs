@@ -6,7 +6,7 @@ description: You're not supposed to drink the product!
 
 ## Introduction
 
-* Player activity to earn money by collecting grapes and transforming it into wine&#x20;
+-   Player activity to earn money by collecting grapes and transforming it into wine&#x20;
 
 ## Configuration
 

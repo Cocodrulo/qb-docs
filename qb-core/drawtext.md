@@ -21,7 +21,7 @@ Accepted positions: Left, Right, Top
 
 ### HideText
 
-* Function to hide the currently displayed text
+-   Function to hide the currently displayed text
 
 ```lua
 -- Source code for reference
@@ -60,7 +60,7 @@ end
 
 ### DrawText
 
-* Function to draw the text on the screen
+-   Function to draw the text on the screen
 
 ```lua
 -- Source code for reference
@@ -104,7 +104,7 @@ end
 
 ### ChangeText
 
-* Function to change the currently displayed text
+-   Function to change the currently displayed text
 
 ```lua
 -- Source code for reference
@@ -150,7 +150,7 @@ end
 
 ### KeyPressed
 
-* Optional function that is used for displaying an animation on key press then hides the currently displayed text
+-   Optional function that is used for displaying an animation on key press then hides the currently displayed text
 
 ```lua
 -- Source code for reference

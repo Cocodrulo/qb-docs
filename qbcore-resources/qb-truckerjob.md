@@ -6,7 +6,7 @@ description: Truckin' and dumpin'
 
 ## Introduction
 
-* Allows players to rent a van from the warehouse and deliver packages to preset locations. With each delivery there's a chance they will get a cryptostick. Read more about those in[qb-crypto.md](qb-crypto.md "mention")
+-   Allows players to rent a van from the warehouse and deliver packages to preset locations. With each delivery there's a chance they will get a cryptostick. Read more about those in[qb-crypto.md](qb-crypto.md "mention")
 
 {% hint style="success" %}
 This job is setup to restock random stores around the map as players complete deliveries!

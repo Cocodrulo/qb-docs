@@ -6,7 +6,7 @@ description: No security officer is safe
 
 ## Introduction
 
-* A bank truck heist that players can interact with to get marked bills
+-   A bank truck heist that players can interact with to get marked bills
 
 {% hint style="danger" %}
 This resource is currently undergoing construction for improvements!

@@ -6,7 +6,7 @@ description: Manage your server and players efficiently
 
 ## Introduction
 
-* The admin menu offers a wide range of capabilities and utilizes the popular menu resource menuV as a dependency. The base permission level for opening it is admin but can also be accessed with a god level permission as well. The menu is easily expandible and allows for as many options as the user desires
+-   The admin menu offers a wide range of capabilities and utilizes the popular menu resource menuV as a dependency. The base permission level for opening it is admin but can also be accessed with a god level permission as well. The menu is easily expandible and allows for as many options as the user desires
 
 ## Preview
 
@@ -92,7 +92,7 @@ Creates an announcement to be sent to all players in the chat.&#x20;
 
 **Permission level:** admin
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -104,7 +104,7 @@ Sends a message to staff in the chat and stores the message as a report
 
 **Permission level:** user
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -116,7 +116,7 @@ Replies to a user report with the given `message`
 
 **Permission level:** admin
 
-* **message** - (required) The message to send in the reply
+-   **message** - (required) The message to send in the reply
 
 </details>
 
@@ -138,7 +138,7 @@ Sends a message in chat visible only to users with the 'admin' permission level
 
 **Permission level:** admin
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -150,8 +150,8 @@ Sends a message to the player with the given `id` with the `reason` given. Also,
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player being warned
-* **reason** - (required) The reason for giving a warning
+-   **id** - (required) The id of the player being warned
+-   **reason** - (required) The reason for giving a warning
 
 </details>
 
@@ -163,8 +163,8 @@ Checks for existing warnings against a player with the given `id`. If no warning
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player being checked
-* **number** - (optional) The warning number (1, 2, 3, etc...)
+-   **id** - (required) The id of the player being checked
+-   **number** - (optional) The warning number (1, 2, 3, etc...)
 
 </details>
 
@@ -176,8 +176,8 @@ Deletes a warning from a player and removes the database entry
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player
-* **number** - (required) The warning number to be deleted (1, 2, 3 etc...)
+-   **id** - (required) The id of the player
+-   **number** - (required) The warning number to be deleted (1, 2, 3 etc...)
 
 </details>
 
@@ -185,14 +185,14 @@ Deletes a warning from a player and removes the database entry
 
 <summary>/givenuifocus [id] [hasFocus] [hasCursor] - Sets nuifocus state for player</summary>
 
-This command sets the NUI focus state for a player with the given `id`. This allows you to manually set the following native: [https://docs.fivem.net/natives/?\_0x5B98AE30](https://docs.fivem.net/natives/?\_0x5B98AE30)\
+This command sets the NUI focus state for a player with the given `id`. This allows you to manually set the following native: [https://docs.fivem.net/natives/?\_0x5B98AE30](https://docs.fivem.net/natives/?_0x5B98AE30)\
 Useful if a player is stuck in an NUI overlay.
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player
-* **hasFocus** - (required) \[true/false] Whether the NUI has focus or not
-* **hasCursor** - (required) \[true/false] Whether the player has cursor when using NUI
+-   **id** - (required) The id of the player
+-   **hasFocus** - (required) \[true/false] Whether the NUI has focus or not
+-   **hasCursor** - (required) \[true/false] Whether the player has cursor when using NUI
 
 </details>
 
@@ -204,8 +204,8 @@ Changes the ped `model` of the player with the given `id`.
 
 **Permission level:** admin
 
-* **model** - (required) The ped model to change to
-* **id** - (required) The id of the player whos ped model is being changed
+-   **model** - (required) The ped model to change to
+-   **id** - (required) The id of the player whos ped model is being changed
 
 </details>
 
@@ -217,7 +217,7 @@ Sets your foot speed between default and "fast"
 
 **Permission level:** admin
 
-* **speed** - (optional) \["fast"] will set foot speed to "fast". If this argument is left blank it will set foot speed to "normal"
+-   **speed** - (optional) \["fast"] will set foot speed to "fast". If this argument is left blank it will set foot speed to "normal"
 
 </details>
 
@@ -239,8 +239,8 @@ Sets the ammo amount for current gun in hand or `weapon` if given
 
 **Permission level:** admin
 
-* **amount** - (required) The amount of ammo to set
-* **weapon** - (optional) The weapon to set the ammo for. Will set ammo for current gun in hand if left blank
+-   **amount** - (required) The amount of ammo to set
+-   **weapon** - (optional) The weapon to set the ammo for. Will set ammo for current gun in hand if left blank
 
 </details>
 

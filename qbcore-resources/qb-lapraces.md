@@ -6,7 +6,7 @@ description: Please! No more left turns!
 
 ## Introduction
 
-* Authorized players can create races that show up on the race app of [qb-phone.md](qb-phone.md "mention")
+-   Authorized players can create races that show up on the race app of [qb-phone.md](qb-phone.md "mention")
 
 ## Preview
 
@@ -24,5 +24,5 @@ Config.WhitelistedCreators = {
 
 ## Commands
 
-* /cancelrace - Cancel the currently active race
-* /togglesetup - Toggle the race creator
+-   /cancelrace - Cancel the currently active race
+-   /togglesetup - Toggle the race creator

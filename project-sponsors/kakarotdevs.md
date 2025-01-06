@@ -18,18 +18,18 @@ Some of our community members learn better by being able to visually see code wr
 
 The times sometime vary but typically always within this block
 
-* Monday-Friday 2pm-10pm (Central Standard Time)
+-   Monday-Friday 2pm-10pm (Central Standard Time)
 
 ### Twitch
 
-* Learn about QBCore, ask questions and get support, giveaways (soon), meet me!
-* Subscribers gain access to _super-secret_ discord channels
+-   Learn about QBCore, ask questions and get support, giveaways (soon), meet me!
+-   Subscribers gain access to _super-secret_ discord channels
 
 {% embed url="https://www.twitch.tv/kakarotqb" %}
 
 ### YouTube
 
-* Tutorials, walkthroughs, insights & more
+-   Tutorials, walkthroughs, insights & more
 
 {% embed url="https://www.youtube.com/c/QBCoreFramework" %}
 

@@ -6,7 +6,7 @@ description: Learn how to access and modify a player's data
 
 ### QBCore.Player.Login
 
-* On player login, gets their data or sets default values
+-   On player login, gets their data or sets default values
 
 ```lua
 function QBCore.Player.Login(source, citizenid, newData)
@@ -41,7 +41,7 @@ end
 
 ### QBCore.Player.CheckPlayerData
 
-* Function called above on player join to gather player data (this is where you can add/remove additional player data)
+-   Function called above on player join to gather player data (this is where you can add/remove additional player data)
 
 ```lua
 function QBCore.Player.CheckPlayerData(source, PlayerData)
@@ -144,11 +144,11 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
 end
 ```
 
-***
+---
 
 ### QBCore.Player.Logout
 
-* Saves player on logout and removes them from active players table
+-   Saves player on logout and removes them from active players table
 
 ```lua
 function QBCore.Player.Logout(source)
@@ -160,11 +160,11 @@ function QBCore.Player.Logout(source)
 end
 ```
 
-***
+---
 
 ### QBCore.Player.CreatePlayer
 
-* Creates a new character and sets default data (any function inside the self table can be called on the player after using the GetPlayer function)
+-   Creates a new character and sets default data (any function inside the self table can be called on the player after using the GetPlayer function)
 
 ```lua
 function QBCore.Player.CreatePlayer(PlayerData)
@@ -484,11 +484,11 @@ function QBCore.Player.CreatePlayer(PlayerData)
 end
 ```
 
-***
+---
 
 ### QBCore.Player.Save
 
-* Saves the player's info to the database
+-   Saves the player's info to the database
 
 ```lua
 function QBCore.Player.Save(source)
@@ -517,11 +517,11 @@ function QBCore.Player.Save(source)
 end
 ```
 
-***
+---
 
 ### QBCore.Player.DeleteCharacter
 
-* Deletes a character and all corresponding data in the database
+-   Deletes a character and all corresponding data in the database
 
 ```lua
 local playertables = { -- Add tables here as needed

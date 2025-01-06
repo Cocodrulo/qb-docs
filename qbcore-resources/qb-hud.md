@@ -6,7 +6,7 @@ description: Keep track of your vitals in style
 
 ## Introduction
 
-* Player heads-up display that tracks vital information such as health, armor, food level, thirst level, etc.
+-   Player heads-up display that tracks vital information such as health, armor, food level, thirst level, etc.
 
 {% hint style="info" %}
 The settings menu uses keymapping and is defaulted to "I"
@@ -52,7 +52,7 @@ That is your harness indicator! When you have the item "harness" in your invento
 
 ### hud:server:GainStress
 
-* Source code for reference
+-   Source code for reference
 
 ```etlua
 RegisterNetEvent('hud:server:GainStress', function(amount)
@@ -78,10 +78,10 @@ RegisterNetEvent('hud:server:GainStress', function(amount)
 end)
 ```
 
-* How to use
+-   How to use
 
 ```etlua
-TriggerServerEvent('hud:server:GainStress', --[[number]])) 
+TriggerServerEvent('hud:server:GainStress', --[[number]]))
 OR
 TriggerServerEvent('hud:server:GainStress', math.random(1, 3))
 ```
@@ -92,7 +92,7 @@ If you trigger this client side you don't need to define source
 
 ### hud:server:RelieveStress
 
-* Source code for reference
+-   Source code for reference
 
 ```etlua
 RegisterNetEvent('hud:server:RelieveStress', function(amount)
@@ -118,10 +118,10 @@ RegisterNetEvent('hud:server:RelieveStress', function(amount)
 end)
 ```
 
-* How to use
+-   How to use
 
 ```etlua
-TriggerServerEvent('hud:server:RelieveStress', --[[number]])) 
+TriggerServerEvent('hud:server:RelieveStress', --[[number]]))
 OR
 TriggerServerEvent('hud:server:RelieveStress', math.random(1, 3))
 ```

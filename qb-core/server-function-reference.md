@@ -6,7 +6,7 @@ description: Learn about and how to use common core server functions!
 
 ### QBCore.Functions.GetCoords
 
-* Get the coords of a passed entity
+-   Get the coords of a passed entity
 
 ```lua
 function QBCore.Functions.GetCoords(entity)
@@ -24,7 +24,7 @@ print(coords)
 
 ### QBCore.Functions.GetIdentifier
 
-* Get a specific identifier of a player
+-   Get a specific identifier of a player
 
 ```lua
 function QBCore.Functions.GetIdentifier(source, idtype)
@@ -50,7 +50,7 @@ print(identifier)
 
 ### QBCore.Functions.GetSource
 
-* Get a players source by identifer
+-   Get a players source by identifer
 
 ```lua
 function QBCore.Functions.GetSource(identifier)
@@ -74,7 +74,7 @@ print(playerSource)
 
 ### QBCore.Functions.GetPlayer
 
-* Get a player by their source and access their data
+-   Get a player by their source and access their data
 
 ```lua
 function QBCore.Functions.GetPlayer(source)
@@ -99,7 +99,7 @@ print(Player.PlayerData.citizenid)
 
 ### QBCore.Functions.GetPlayerByCitizenId
 
-* Get a player by their citizen id and access their data (must be online)
+-   Get a player by their citizen id and access their data (must be online)
 
 ```lua
 function QBCore.Functions.GetPlayerByCitizenId(citizenid)
@@ -124,7 +124,7 @@ print(Player.PlayerData.license)
 
 ### QBCore.Functions.GetPlayerByPhone
 
-* Get a player by their phone number (must be online)
+-   Get a player by their phone number (must be online)
 
 ```lua
 function QBCore.Functions.GetPlayerByPhone(number)
@@ -149,7 +149,7 @@ print(Player.PlayerData.license)
 
 ### QBCore.Functions.GetPlayers
 
-* Get all player IDs in the server (deprecated method)
+-   Get all player IDs in the server (deprecated method)
 
 ```lua
 function QBCore.Functions.GetPlayers()
@@ -168,7 +168,7 @@ print(QBCore.Debug(Players))
 
 ### QBCore.Functions.GetQBPlayers
 
-* Access the table of all active players on the server (preferred to above)
+-   Access the table of all active players on the server (preferred to above)
 
 ```lua
 function QBCore.Functions.GetQBPlayers()
@@ -183,7 +183,7 @@ print(QBCore.Debug(Players))
 
 ### QBCore.Functions.CreateCallback
 
-* Creates a callback which is used on the client-side code with QBCore.Functions.TriggerCallback
+-   Creates a callback which is used on the client-side code with QBCore.Functions.TriggerCallback
 
 ```lua
 function QBCore.Functions.CreateCallback(name, cb)
@@ -199,7 +199,7 @@ end)
 
 ### QBCore.Functions.CreateUseableItem
 
-* Register an item as usable in the core
+-   Register an item as usable in the core
 
 ```lua
 function QBCore.Functions.CreateUseableItem(item, cb)
@@ -217,7 +217,7 @@ end)
 
 ### QBCore.Functions.CanUseItem
 
-* Check if an item is registered as usable before attempting use
+-   Check if an item is registered as usable before attempting use
 
 ```lua
 function QBCore.Functions.CanUseItem(item)
@@ -238,7 +238,7 @@ if not canUse then return end
 
 ### QBCore.Functions.UseItem
 
-* Trigger an item to be used on the player
+-   Trigger an item to be used on the player
 
 ```lua
 function QBCore.Functions.UseItem(source, item)
@@ -254,7 +254,7 @@ QBCore.Functions.UseItem(source, 'my_cool_item')
 
 ### QBCore.Functions.Kick
 
-* Kick a player from the server
+-   Kick a player from the server
 
 ```lua
 function QBCore.Functions.Kick(source, reason, setKickReason, deferrals)
@@ -280,7 +280,7 @@ function QBCore.Functions.Kick(source, reason, setKickReason, deferrals)
                         break
                     end
                     Wait(100)
-                    CreateThread(function() 
+                    CreateThread(function()
                         DropPlayer(src, reason)
                     end)
                 end
@@ -297,7 +297,7 @@ QBCore.Functions.Kick(playerId, 'You messed up', true, true)
 
 ### QBCore.Functions.AddPermission
 
-* Give a player a specific permission level (per session only)
+-   Give a player a specific permission level (per session only)
 
 ```lua
 function QBCore.Functions.AddPermission(source, permission)
@@ -315,7 +315,7 @@ QBCore.Functions.AddPermission(Player.PlayerData.source, permission)
 
 ### QBCore.Functions.RemovePermission
 
-* Remove all of the players permissions on the server (per session only)
+-   Remove all of the players permissions on the server (per session only)
 
 ```lua
 function QBCore.Functions.RemovePermission(source, permission)
@@ -345,7 +345,7 @@ QBCore.Functions.RemovePermission(Player.PlayerData.source, permission)
 
 ### QBCore.Functions.HasPermission
 
-* Check if a player has the permission level needed
+-   Check if a player has the permission level needed
 
 ```lua
 function QBCore.Functions.HasPermission(source, permission)
@@ -367,7 +367,7 @@ if not hasPerms then return end
 
 ### QBCore.Functions.GetPermission
 
-* Get a player's permission level
+-   Get a player's permission level
 
 ```lua
 function QBCore.Functions.GetPermission(source)
@@ -398,7 +398,7 @@ end
 
 ### QBCore.Functions.IsPlayerBanned
 
-* Check if a player is banned (used for connection)
+-   Check if a player is banned (used for connection)
 
 ```lua
 function QBCore.Functions.IsPlayerBanned(source)
@@ -422,7 +422,7 @@ print(isBanned)
 
 ### QBCore.Functions.IsLicenseInUse
 
-* Prevent duplicate licenses on the server (used for connection)
+-   Prevent duplicate licenses on the server (used for connection)
 
 ```lua
 function QBCore.Functions.IsLicenseInUse(license)

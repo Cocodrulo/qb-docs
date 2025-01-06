@@ -10,17 +10,17 @@ qb-target is a targeting solution that allows interaction with any predefined en
 
 ## Features
 
-* Maintains compatibility with bt-target while providing improved utility and performance
-* Optimized and improved raycasting function allows interaction with a wider range of entities
-* Add generic options to apply for all players, peds, vehicles, or objects
-* Trigger an event, function or command after clicking an option, with the ability to pass any data through
-* Define distance on a per-option or overall basis when triggering a target option
-* Ability to redefine or remove options and add new options without replacing old ones
-* Update the option list when moving towards or away from a target with variable distances on their options
-* Support for entity bones, with built-in tables for opening vehicle doors
-* Support checking for job, gang, citizenid, items, or specific entities
-* Utilise the `canInteract` function for advanced checks to show or hide an option based on any trigger
-* Ped spawner to spawn peds and assign target options to them all in one place
+-   Maintains compatibility with bt-target while providing improved utility and performance
+-   Optimized and improved raycasting function allows interaction with a wider range of entities
+-   Add generic options to apply for all players, peds, vehicles, or objects
+-   Trigger an event, function or command after clicking an option, with the ability to pass any data through
+-   Define distance on a per-option or overall basis when triggering a target option
+-   Ability to redefine or remove options and add new options without replacing old ones
+-   Update the option list when moving towards or away from a target with variable distances on their options
+-   Support for entity bones, with built-in tables for opening vehicle doors
+-   Support checking for job, gang, citizenid, items, or specific entities
+-   Utilise the `canInteract` function for advanced checks to show or hide an option based on any trigger
+-   Ped spawner to spawn peds and assign target options to them all in one place
 
 ## These are Templates for all the functions in qb-target
 
@@ -663,7 +663,7 @@ CreateThread(function()
   local entity = CreatePed(0, model, GetEntityCoords(PlayerPedId()), GetEntityHeading(PlayerPedId()), true, false)
   exports['qb-target']:AddEntityZone("name", entity, { -- The specified entity number
     name = "name", -- This is the name of the zone recognized by PolyZone, this has to be unique so it doesn't mess up with other zones
-    debugPoly = false, -- This is for enabling/disabling the drawing of the box, it accepts only a boolean value (true or false), when true it will draw the polyzone in green 
+    debugPoly = false, -- This is for enabling/disabling the drawing of the box, it accepts only a boolean value (true or false), when true it will draw the polyzone in green
   }, {
     options = { -- This is your options table, in this table all the options will be specified for the target to accept
       { -- This is the first table with options, you can make as many options inside the options table as you want
@@ -787,8 +787,6 @@ exports['qb-target']:AddTargetModel(models, { -- This defines the models, can be
   distance = 2.5, -- This is the distance for you to be at for the target to turn blue, this is in GTA units and has to be a float value
 })
 ```
-
-
 
 ### RemoveZone
 

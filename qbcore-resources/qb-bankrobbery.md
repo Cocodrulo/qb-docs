@@ -6,7 +6,7 @@ description: Career criminal?
 
 ## Introduction
 
-* Creates robbable lockers inside various banks across the map. It allows for configuring the amount of police needed for each type of robbery as well as the rewards you can get
+-   Creates robbable lockers inside various banks across the map. It allows for configuring the amount of police needed for each type of robbery as well as the rewards you can get
 
 {% hint style="warning" %}
 This resource includes a thermite mini game in the html folder so without it thermite won't work properly!
@@ -38,7 +38,7 @@ Config.BigBanks = {} -- Big banks to rob
 
 ## Items
 
-* thermite - Used to blow up power station locations or bank gates (need lighter)
-* security\_card\_01 - Item used at the paleto bank vault
-* security\_card\_02 - Item used at the pacific bank vault
-* electronickit - Item used at the fleeca bank vault
+-   thermite - Used to blow up power station locations or bank gates (need lighter)
+-   security_card_01 - Item used at the paleto bank vault
+-   security_card_02 - Item used at the pacific bank vault
+-   electronickit - Item used at the fleeca bank vault

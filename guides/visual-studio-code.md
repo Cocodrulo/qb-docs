@@ -6,7 +6,7 @@ description: A free, lightweight, text editor with many extension options!
 
 ## Download
 
-* Visit the [Visual Studio Code](https://code.visualstudio.com/) website and download the program
+-   Visit the [Visual Studio Code](https://code.visualstudio.com/) website and download the program
 
 {% hint style="warning" %}
 Make sure you check the "Open with code" boxes!
@@ -14,31 +14,31 @@ Make sure you check the "Open with code" boxes!
 
 ## Extensions
 
-* [Sumneko lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+-   [Sumneko lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
 
 ![](../.gitbook/assets/sumneko.png)
 
-* [Gccfeli lua formatter](https://marketplace.visualstudio.com/items?itemName=gccfeli.vscode-lua)
+-   [Gccfeli lua formatter](https://marketplace.visualstudio.com/items?itemName=gccfeli.vscode-lua)
 
 ![](../.gitbook/assets/gccfeli.png)
 
-* [Prettier code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (_JavaScript, TypeScript, CSS, HTML, Vue, JSX_)
+-   [Prettier code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (_JavaScript, TypeScript, CSS, HTML, Vue, JSX_)
 
 ![](../.gitbook/assets/prettier.png)
 
-* [FiveM natives](https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode)
+-   [FiveM natives](https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode)
 
 <figure><img src="../.gitbook/assets/cfxlua (1).png" alt=""><figcaption></figcaption></figure>
 
-* [Material icon theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (cosmetic only)
+-   [Material icon theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (cosmetic only)
 
 ![](../.gitbook/assets/icontheme.png)
 
-* [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) (cosmetic only)
+-   [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) (cosmetic only)
 
 ![](../.gitbook/assets/darkonepro.png)
 
-* [QBCore Snippets](https://marketplace.visualstudio.com/items?itemName=JericoFX.qb-core-snippets)
+-   [QBCore Snippets](https://marketplace.visualstudio.com/items?itemName=JericoFX.qb-core-snippets)
 
 <figure><img src="../.gitbook/assets/qb-snippets.png" alt=""><figcaption></figcaption></figure>
 
@@ -82,9 +82,9 @@ You can search for these through File -> Preferences -> Settings
 
 Built-in lua diagnostics
 
-* undefined-global
-* err-nonstandard-symbol
-* unknown-symbol
+-   undefined-global
+-   err-nonstandard-symbol
+-   unknown-symbol
 
 ![](../.gitbook/assets/luadiagnostics.png)
 
@@ -126,14 +126,14 @@ There is some configuring to do with these extensions but most of it is just sig
 
 ### Extensions
 
-* Download the [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.git-extension-pack)
+-   Download the [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.git-extension-pack)
 
 ![](../.gitbook/assets/gitextpack.png)
 
-* Download [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+-   Download [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
 ![](../.gitbook/assets/gitprissues.png)
 
-* Sign up for [GitHub Copilot](https://copilot.github.com/) and install (optional)
+-   Sign up for [GitHub Copilot](https://copilot.github.com/) and install (optional)
 
 ![](../.gitbook/assets/copilot.png)

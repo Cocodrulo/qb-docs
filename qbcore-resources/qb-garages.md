@@ -6,11 +6,9 @@ description: Keep that vehicle pristine
 
 ## Introduction
 
-* Handles the storing of vehicles for public and house garages. Supports land, air and sea vehicles as well as jobs and gangs. Also includes an impound system!
+-   Handles the storing of vehicles for public and house garages. Supports land, air and sea vehicles as well as jobs and gangs. Also includes an impound system!
 
 ## Preview
-
-
 
 ![](../.gitbook/assets/garage1.png)
 

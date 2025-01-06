@@ -8,7 +8,7 @@ description: Learn how to use exports to update the shared dynamically!
 
 ## Import Jobs
 
-* This method allows for any resource to insert job data into the shared file for the core. That means that you can make a resource, and on load, make those jobs available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
+-   This method allows for any resource to insert job data into the shared file for the core. That means that you can make a resource, and on load, make those jobs available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
 
 {% hint style="danger" %}
 Read over and learn the [shared.md](shared.md "mention") structure before attempting to use these
@@ -135,7 +135,7 @@ exports['qb-core']:AddJobs({
 
 ## Import Gangs
 
-* This method allows for any resource to insert gang data into the shared file for the core. That means that you can make a resource, and on load, make those gangs available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
+-   This method allows for any resource to insert gang data into the shared file for the core. That means that you can make a resource, and on load, make those gangs available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
 
 ### QBCore.Functions.AddGang
 
@@ -223,7 +223,7 @@ exports['qb-core']:AddGangs({
 
 ## Import Items
 
-* This method allows for any resource to insert item data into the shared file for the core. That means that you can make a resource, and on load, make those items available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
+-   This method allows for any resource to insert item data into the shared file for the core. That means that you can make a resource, and on load, make those items available for use. This can be accomplished through one the ways shown below. Utilizing the function requires importing the core but using the export does not
 
 ### QBCore.Functions.AddItem
 

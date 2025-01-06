@@ -6,9 +6,9 @@ description: Become a CEO, manage your company, make millions
 
 ## Introduction
 
-* Manage employees online or offline!
-* Access a personal boss level stash!
-* Allows for multiple boss menu locations!
+-   Manage employees online or offline!
+-   Access a personal boss level stash!
+-   Allows for multiple boss menu locations!
 
 ## Preview
 

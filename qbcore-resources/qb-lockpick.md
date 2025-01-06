@@ -6,7 +6,7 @@ description: Locks were meant to be picked
 
 ## Introduction
 
-* This is a JavaScript mini game that test players skills by rotating the lockpick to a certain angle and engaging the screwdriver which returns success or failure
+-   This is a JavaScript mini game that test players skills by rotating the lockpick to a certain angle and engaging the screwdriver which returns success or failure
 
 ## Preview
 
@@ -28,5 +28,5 @@ end
 
 RegisterCommand("testlockpick", function()
 	TriggerEvent('qb-lockpick:client:openLockpick', lockpickFinish)
-end) 
+end)
 ```

@@ -6,7 +6,7 @@ description: Any cops on?
 
 ## Introduction
 
-* Simple scoreboard resource that shows the total players online and the availability of robberies according to the configuration of total police needed
+-   Simple scoreboard resource that shows the total players online and the availability of robberies according to the configuration of total police needed
 
 {% hint style="success" %}
 Make sure to edit the total police required in this resource if you change it in one of the robbery scripts otherwise, they won't match!

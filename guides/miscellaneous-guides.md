@@ -10,7 +10,7 @@ description: Extra guides and tools are listed here
 
 <summary>What is Keymapping?</summary>
 
-Allows you to take a **REGISTERED** command, using the [RegisterCommand](https://docs.fivem.net/natives/?\_0x5FA79B0F) native, and apply a key binding to it. So instead of having to type in the slash command in the chat, you can just press a single key and execute it. This does NOT work with `QBCore.Commands.Add`.
+Allows you to take a **REGISTERED** command, using the [RegisterCommand](https://docs.fivem.net/natives/?_0x5FA79B0F) native, and apply a key binding to it. So instead of having to type in the slash command in the chat, you can just press a single key and execute it. This does NOT work with `QBCore.Commands.Add`.
 
 </details>
 
@@ -24,12 +24,12 @@ The purpose of this system is so that players can completely customize their exp
 
 <summary><em>How to change a bind</em></summary>
 
-* Open your pause menu in game&#x20;
-* Navigate to settings
-* Select settings —> keybinds
-* Select FiveM
-* Find the command you want to change the key for and select it.
-* Press the desired key you’d like and that’s it
+-   Open your pause menu in game&#x20;
+-   Navigate to settings
+-   Select settings —> keybinds
+-   Select FiveM
+-   Find the command you want to change the key for and select it.
+-   Press the desired key you’d like and that’s it
 
 </details>
 
@@ -46,7 +46,7 @@ PlayerData.metadata["licences"] = PlayerData.metadata["licences"] ~= nil and Pla
     ["driver"] = true,
     ["business"] = false,
     ["weapon"] = false
-}    
+}
 ```
 
 and change `["weapon"] = false` to `["weapon"] = true`
@@ -81,7 +81,7 @@ This is not an easy thing to describe because the code varies so you have to use
 
 <summary><strong>Getting The Coords</strong></summary>
 
-This one is relatively simple, you can use the native GetEntityCoords on the server side and then pass that through an event or a callback. If you want more info on how to use this native then you can view that [here](https://docs.fivem.net/natives/?\_0x3FEF770D40960D5A)
+This one is relatively simple, you can use the native GetEntityCoords on the server side and then pass that through an event or a callback. If you want more info on how to use this native then you can view that [here](https://docs.fivem.net/natives/?_0x3FEF770D40960D5A)
 
 </details>
 
@@ -147,10 +147,10 @@ txAdmin does this automatically already but if needed then in your server.cfg pu
 
 ### Installation[​](https://overextended.github.io/docs/oxmysql/#installation) <a href="#installation" id="installation"></a>
 
-* Download the [latest build](https://github.com/overextended/oxmysql/releases/latest) of oxmysql (not the source code).
-* Extract the contents of the archive to your resources folder.
-* Start the resource near the top of your resources in your `server.cfg`.
-* If you have a lot of streamed assets, load them first to prevent timing out the connection.
+-   Download the [latest build](https://github.com/overextended/oxmysql/releases/latest) of oxmysql (not the source code).
+-   Extract the contents of the archive to your resources folder.
+-   Start the resource near the top of your resources in your `server.cfg`.
+-   If you have a lot of streamed assets, load them first to prevent timing out the connection.
 
 ### Configuration[​](https://overextended.github.io/docs/oxmysql/#configuration) <a href="#configuration" id="configuration"></a>
 
@@ -184,9 +184,9 @@ Also make sure that you have `command` ace permission access, then you should be
 Setting up your server.cfg is really simple and is already completed upon a successful txAdmin recipe install! You can also find additional information on server configuration files [**here**](https://docs.fivem.net/docs/server-manual/setting-up-a-server/)**.** In case of a manual install then here's a template to use
 
 ```systemd
-#   ____  ____   _____               
-#  / __ \|  _ \ / ____|              
-# | |  | | |_) | |     ___  _ __ ___ 
+#   ____  ____   _____
+#  / __ \|  _ \ / ____|
+# | |  | | |_) | |     ___  _ __ ___
 # | |  | |  _ <| |    / _ \| '__/ _ \
 # | |__| | |_) | |___| (_) | | |  __/
 #  \___\_\____/ \_____\___/|_|  \___|
@@ -202,7 +202,7 @@ sv_licenseKey "{{svLicense}}"
 sv_hostname "{{serverName}} built with {{recipeName}} by {{recipeAuthor}}!"
 sets sv_projectName "[{{recipeName}}] {{serverName}}"
 sets sv_projectDesc "{{recipeDescription}}"
-sets locale "en-US" 
+sets locale "en-US"
 load_server_icon myLogo.png
 set sv_enforceGameBuild 2372
 set mysql_connection_string "{{dbConnectionString}}"
@@ -254,20 +254,18 @@ add_principal qbcore.god qbcore.admin # Allow gods access to admin commands
 add_principal qbcore.admin qbcore.mod # Allow admins access to mod commands
 ```
 
-
-
 ## GitHub Pull Request
 
-* Visit the resource you would like to propose changes on
-* Navigate to the exact file within that resource
-* Click on the pencil icon and you will be able to make edits to the code
-* Once you are satisfied with your edits, scroll down to the box labeled "Propose Changes"
-* Write a title and short description of what the changes are
-* Once that's filled out, press the green "Propose Changes" button
-* You will see a screen showing your edits compared to the existing code
-* If you are satisfied with the edits shown, press the green "Create Pull Request" button
-* Fill in the title and description if necessary
-* Click on the green "Create Pull Request" button and it's finished!
+-   Visit the resource you would like to propose changes on
+-   Navigate to the exact file within that resource
+-   Click on the pencil icon and you will be able to make edits to the code
+-   Once you are satisfied with your edits, scroll down to the box labeled "Propose Changes"
+-   Write a title and short description of what the changes are
+-   Once that's filled out, press the green "Propose Changes" button
+-   You will see a screen showing your edits compared to the existing code
+-   If you are satisfied with the edits shown, press the green "Create Pull Request" button
+-   Fill in the title and description if necessary
+-   Click on the green "Create Pull Request" button and it's finished!
 
 {% hint style="success" %}
 If you have email notifications enabled, you will get any updates on the pull request by email

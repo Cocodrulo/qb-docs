@@ -6,7 +6,7 @@ description: Learn how to manage your server's jobs, vehicles, items, etc!
 
 ## Introduction
 
-* The shared file inside qb-core contains all the information for your jobs, vehicles, items & more! You will spend a lot of time in this file configuring everything to your exact specifications. Jenkins hashes are used frequently, you can find more information on those [here](https://cookbook.fivem.net/2019/06/23/lua-support-for-compile-time-jenkins-hashes/)
+-   The shared file inside qb-core contains all the information for your jobs, vehicles, items & more! You will spend a lot of time in this file configuring everything to your exact specifications. Jenkins hashes are used frequently, you can find more information on those [here](https://cookbook.fivem.net/2019/06/23/lua-support-for-compile-time-jenkins-hashes/)
 
 {% hint style="success" %}
 QBCore uses lua tables to store static information instead of a database to prevent needing to execute queries. When you combine this with the ability to use [shared-exports.md](shared-exports.md "mention") it can be a very powerful tool!
@@ -14,7 +14,7 @@ QBCore uses lua tables to store static information instead of a database to prev
 
 ### Utility
 
-* Found in qb-core/shared/main.lua
+-   Found in qb-core/shared/main.lua
 
 ```lua
 QBShared = QBShared or {}
@@ -98,7 +98,7 @@ QBShared.StarterItems = {
 
 ### Items
 
-* Found in qb-core/shared/items.lua
+-   Found in qb-core/shared/items.lua
 
 ```lua
 QBShared.Items = {
@@ -132,7 +132,7 @@ QBShared.Items = {
 
 ### Jobs
 
-* Found in qb-core/shared/jobs.lua
+-   Found in qb-core/shared/jobs.lua
 
 ```lua
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
@@ -179,7 +179,7 @@ QBShared.Jobs = {
 
 ### Vehicles
 
-* Found in qb-core/shared/vehicles.lua
+-   Found in qb-core/shared/vehicles.lua
 
 ```lua
 QBShared.Vehicles = {
@@ -197,7 +197,7 @@ QBShared.Vehicles = {
 
 ### Gangs
 
-* Found in qb-core/shared/gangs.lua
+-   Found in qb-core/shared/gangs.lua
 
 ```lua
 QBShared.Gangs = {
@@ -224,7 +224,7 @@ QBShared.Gangs = {
 
 ### Weapons
 
-* Found in qb-core/shared/weapons.lua
+-   Found in qb-core/shared/weapons.lua
 
 {% hint style="warning" %}
 Weapons are added in shared/items.lua as well!

@@ -6,7 +6,7 @@ description: Hot off the press!
 
 ## Introduction
 
-* Allow players to play as a news reporter, use job vehicles and helicopters, and use commands to pull out news equipment
+-   Allow players to play as a news reporter, use job vehicles and helicopters, and use commands to pull out news equipment
 
 ## Configuration
 
@@ -94,6 +94,6 @@ Config.Helicopters = { -- list helicopters by grade
 
 ## Commands
 
-* /newscam - Makes player pull out a news camera
-* /newsmic - Makes player pull out a news microphone
-* /newsbmic - Makes player pull out a news boom microphone
+-   /newscam - Makes player pull out a news camera
+-   /newsmic - Makes player pull out a news microphone
+-   /newsbmic - Makes player pull out a news boom microphone

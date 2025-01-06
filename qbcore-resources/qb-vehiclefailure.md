@@ -6,8 +6,8 @@ description: Oh, you said you wanted realism?
 
 ## Introduction
 
-* Handles the logic for vehicle damage
-* Has handling logic like `sundayDriver`&#x20;
+-   Handles the logic for vehicle damage
+-   Has handling logic like `sundayDriver`&#x20;
 
 {% hint style="info" %}
 This resource is just a modified version of [Realistic Vehicle Failure](https://github.com/StockholmCityRP/fivem-realisticvehicle)

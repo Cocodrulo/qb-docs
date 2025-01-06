@@ -4,7 +4,7 @@ description: Where software teams break knowledge silos.
 
 # 📚 GitBook
 
-![](../.gitbook/assets/gitbook\_logo.png)
+![](../.gitbook/assets/gitbook_logo.png)
 
 ## Who are they?
 

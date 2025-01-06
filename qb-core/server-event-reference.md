@@ -6,7 +6,7 @@ description: Learn about and how to use common core server events!
 
 ### QBCore:Server:CloseServer
 
-* Event to check if the server is closed
+-   Event to check if the server is closed
 
 ```lua
 RegisterNetEvent('QBCore:Server:CloseServer', function(reason)
@@ -28,7 +28,7 @@ end)
 
 ### QBCore:Server:OpenServer
 
-* Event to check if the server is open
+-   Event to check if the server is open
 
 ```lua
 RegisterNetEvent('QBCore:Server:OpenServer', function()
@@ -43,7 +43,7 @@ end)
 
 ### QBCore:UpdatePlayer
 
-* Event for updating and saving player data
+-   Event for updating and saving player data
 
 ```lua
 RegisterNetEvent('QBCore:UpdatePlayer', function()
@@ -63,7 +63,7 @@ end)
 
 ### QBCore:Server:SetMetaData
 
-* Event to set a players metadata
+-   Event to set a players metadata
 
 ```lua
 RegisterNetEvent('QBCore:Server:SetMetaData', function(meta, data)
@@ -83,7 +83,7 @@ end)
 
 ### QBCore:ToggleDuty
 
-* Event to toggle a player's duty status
+-   Event to toggle a player's duty status
 
 ```lua
 RegisterNetEvent('QBCore:ToggleDuty', function()
@@ -103,7 +103,7 @@ end)
 
 ### QBCore:CallCommand
 
-* Event to trigger a command outside the chat (ex: qb-adminmenu)
+-   Event to trigger a command outside the chat (ex: qb-adminmenu)
 
 ```lua
 RegisterNetEvent('QBCore:CallCommand', function(command, args)

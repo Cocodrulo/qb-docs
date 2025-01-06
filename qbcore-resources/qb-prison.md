@@ -6,7 +6,7 @@ description: Nice, quiet gated community
 
 ## Introduction
 
-* Allows police the ability to jail players for a certain length of time. When a player is jailed, they are stripped of their items and job. When they are released, those items are returned
+-   Allows police the ability to jail players for a certain length of time. When a player is jailed, they are stripped of their items and job. When they are released, those items are returned
 
 {% hint style="success" %}
 Players can use a `gatecrack` and `electronickit` item to hack their way out of prison!
@@ -108,7 +108,7 @@ Config.CanteenItems = { -- items available to buy in the prison shop
 
 ### Prison break
 
-* Found in qb-prison/client/prisonbreak.lua
+-   Found in qb-prison/client/prisonbreak.lua
 
 ```lua
 local Gates = { -- available gates for players to hack

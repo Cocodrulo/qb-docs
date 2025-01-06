@@ -6,9 +6,9 @@ description: Car go vroom
 
 ## Introduction
 
-* Handles the logic for tuning your car with a in game item called "tunerlaptop"
-* Handles the logic for nitrous
-* Displays nitrous using [qb-hud.md](qb-hud.md "mention")
+-   Handles the logic for tuning your car with a in game item called "tunerlaptop"
+-   Handles the logic for nitrous
+-   Displays nitrous using [qb-hud.md](qb-hud.md "mention")
 
 {% hint style="success" %}
 This resource has no configuration file
@@ -24,4 +24,4 @@ If you want to use wheel stancing then you must install [vstancer](https://githu
 
 ## Items
 
-* tunerlaptop - Use it in a vehicle to open the tuner NUI
+-   tunerlaptop - Use it in a vehicle to open the tuner NUI

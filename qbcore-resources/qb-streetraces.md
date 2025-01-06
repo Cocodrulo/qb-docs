@@ -6,7 +6,7 @@ description: If you're not first, you're last
 
 ## Introduction
 
-* Allows players to start street races using chat commands
+-   Allows players to start street races using chat commands
 
 {% hint style="info" %}
 Once a player creates a race, there will be some text drawn on the screen which prompts others to join

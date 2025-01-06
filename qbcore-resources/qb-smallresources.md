@@ -6,35 +6,35 @@ description: Resource for handling **alot** of misc stuff.
 
 ## Introduction
 
-* This resource handles many small tasks for the framework
-* Discord Logs
-* Timed Jobs
-* Consumable foods/beverages/drinks/drugs (sandwich, water\_bottle, tosti, beer, vodka etc.)
-* Removal of GTA's default weapons drops
-* Drug effects
-* Removal of GTA's default vehicle spawns (planes, helicopters, emergency vehicles etc.)
-* Removal of GTA's default emergency service npc's
-* Removal of GTA's default wanted system
-* Useable binoculars
-* Weapon draw animations (normal/holster)
-* Ability to add teleport markers (from a place to another place)
-* Taking hostage
-* Pointing animation with finger (by pressing "B")
-* Seatbelt and cruise control
-* Useable parachute
-* Useable armor
-* Weapon recoil (specific to each weapon)
-* Tackle
-* Calm AI (adjusting npc aggressiveness)
-* Race Harness
-* Adjusting npc/vehicle/parked vehicle spawn rates
-* Infinite ammo for fire extinguisher and petrol can
-* Removal of GTA's default huds (weapon wheel, cash etc.)
-* Fireworks
-* Automatically engine on after entering vehicle
-* Discord rich presence
-* Crouch and prone
-* AFK dection
+-   This resource handles many small tasks for the framework
+-   Discord Logs
+-   Timed Jobs
+-   Consumable foods/beverages/drinks/drugs (sandwich, water_bottle, tosti, beer, vodka etc.)
+-   Removal of GTA's default weapons drops
+-   Drug effects
+-   Removal of GTA's default vehicle spawns (planes, helicopters, emergency vehicles etc.)
+-   Removal of GTA's default emergency service npc's
+-   Removal of GTA's default wanted system
+-   Useable binoculars
+-   Weapon draw animations (normal/holster)
+-   Ability to add teleport markers (from a place to another place)
+-   Taking hostage
+-   Pointing animation with finger (by pressing "B")
+-   Seatbelt and cruise control
+-   Useable parachute
+-   Useable armor
+-   Weapon recoil (specific to each weapon)
+-   Tackle
+-   Calm AI (adjusting npc aggressiveness)
+-   Race Harness
+-   Adjusting npc/vehicle/parked vehicle spawn rates
+-   Infinite ammo for fire extinguisher and petrol can
+-   Removal of GTA's default huds (weapon wheel, cash etc.)
+-   Fireworks
+-   Automatically engine on after entering vehicle
+-   Discord rich presence
+-   Crouch and prone
+-   AFK dection
 
 ## Configuration
 
@@ -72,7 +72,7 @@ Config.Teleports = {
         },
 
     },
-    [2] = { --New teleport 
+    [2] = { --New teleport
         [1] = {
             coords = vector4(909.49, -1589.22, 30.51, 92.24),
             ["AllowVehicle"] = false,
@@ -134,7 +134,7 @@ You can also increase the thirst or hunger with ["itemname"] = math.random(-20, 
 
 ```lua
 ConsumeablesEat = { -- how much hunger is relieved on use
-    ["sandwich"] = math.random(35, 54), 
+    ["sandwich"] = math.random(35, 54),
     ["tosti"] = math.random(40, 50),
     ["twerks_candy"] = math.random(35, 54),
     ["snikkel_candy"] = math.random(40, 50),
@@ -161,28 +161,28 @@ Timed jobs are used to execute code at a certain time every day. For example exe
 
 ### Usage (Server Exports):
 
-- CreateTimedJob(hour: number, min: number, callback: function)
-    > Used for registering the actual timed job. Returns the index of the timed job which can be used to force run or stop the timed job.<br>
-    > **Example:**
+-   CreateTimedJob(hour: number, min: number, callback: function)
+    > Used for registering the actual timed job. Returns the index of the timed job which can be used to force run or stop the timed job.<br> > **Example:**
+    >
     > ```lua
     > -- `idx` becomes the index of the timed job.
-    >local idx = exports["qb-smallresources"]:CreateTimedJob(8, 20, function(day, hour, min)
-    >	 if day == 1 then -- check if its monday
+    > local idx = exports["qb-smallresources"]:CreateTimedJob(8, 20, function(day, hour, min)
+    > 	 if day == 1 then -- check if its monday
     >        print("Its currently 08:20 AM on a monday")
     >    end
-    >end)
+    > end)
     > ```
-    
-- ForceRunTimedJob(idx: number)
-    > Used to force run a timed job, even if the time isnt correct. Does not bypass local checks in the actual callback though.<br>
-    > **Example:**
+-   ForceRunTimedJob(idx: number)
+
+    > Used to force run a timed job, even if the time isnt correct. Does not bypass local checks in the actual callback though.<br> > **Example:**
+    >
     > ```lua
     > exports["qb-smallresources"]:ForceRunTimedJob(2)
     > ```
 
-- StopTimedJob(idx: number)
-    > Stops the timed job forever (unless registered again).<br>
-    > **Example:**
+-   StopTimedJob(idx: number)
+    > Stops the timed job forever (unless registered again).<br> > **Example:**
+    >
     > ```lua
     > exports["qb-smallresources"]:StopTimedJob(3)
     > ```
@@ -280,12 +280,12 @@ CreateThread(function()
 
         -- Here you will have to put the image name for the "large" icon.
 	SetDiscordRichPresenceAsset('logo_name')
-        
+
         -- (11-11-2018) New Natives:
 
         -- Here you can add hover text for the "large" icon.
         SetDiscordRichPresenceAssetText('This is a lage icon with text')
-       
+
         -- Here you will have to put the image name for the "small" icon.
         SetDiscordRichPresenceAssetSmall('logo_name')
 
@@ -298,10 +298,10 @@ CreateThread(function()
 
         -- (26-02-2021) New Native:
 
-        --[[ 
+        --[[
             Here you can add buttons that will display in your Discord Status,
-            First paramater is the button index (0 or 1), second is the title and 
-            last is the url (this has to start with "fivem://connect/" or "https://") 
+            First paramater is the button index (0 or 1), second is the title and
+            last is the url (this has to start with "fivem://connect/" or "https://")
         ]]--
         SetDiscordRichPresenceAction(0, "First Button!", "fivem://connect/localhost:30120")
         SetDiscordRichPresenceAction(1, "Second Button!", "fivem://connect/localhost:30120")
@@ -316,42 +316,42 @@ end)
 
 ### Commands
 
-* /editor - Activates rockstar editor
-* /record - Starts a recording
-* /clip- Strarts to record a clip
-* /saveclip - Saves the clip
-* /delclip - Deletes clip
+-   /editor - Activates rockstar editor
+-   /record - Starts a recording
+-   /clip- Strarts to record a clip
+-   /saveclip - Saves the clip
+-   /delclip - Deletes clip
 
 ## Items
 
-* vodka - Consumable
-* beer - Consumable
-* whiskey - Consumable
-* sandwich - Consumable
-* twerks\_candy - Consumable
-* snikkel\_candy - Consumable
-* tosti - Consumable
-* water\_bottle - Consumable
-* coffee - Consumable
-* kurkakola - Consumable
-* joint - Drug
-* cokebaggy - Drug
-* crack\_baggy - Drug
-* xtcbaggy - Drug
-* oxy - Drug
-* meth - Drug
-* armor - Gives armor on use
-* heavyarmor - Gives armor on use
-* binoculars - Useable binoculars to look far distances
-* parachute - adds a parachute to the player allowing to deploy it in the air
-* firework1 - Make things go boom&#x20;
-* firework2 - More fireworks
-* firework3 - So many fireworks
-* firework4 - Looks nice&#x20;
-* lockpick - The item used to trigger [qb-lockpick.md](qb-lockpick.md "mention")
-* advancedlockpick - Another item used to trigger [qb-lockpick.md](qb-lockpick.md "mention")
+-   vodka - Consumable
+-   beer - Consumable
+-   whiskey - Consumable
+-   sandwich - Consumable
+-   twerks_candy - Consumable
+-   snikkel_candy - Consumable
+-   tosti - Consumable
+-   water_bottle - Consumable
+-   coffee - Consumable
+-   kurkakola - Consumable
+-   joint - Drug
+-   cokebaggy - Drug
+-   crack_baggy - Drug
+-   xtcbaggy - Drug
+-   oxy - Drug
+-   meth - Drug
+-   armor - Gives armor on use
+-   heavyarmor - Gives armor on use
+-   binoculars - Useable binoculars to look far distances
+-   parachute - adds a parachute to the player allowing to deploy it in the air
+-   firework1 - Make things go boom&#x20;
+-   firework2 - More fireworks
+-   firework3 - So many fireworks
+-   firework4 - Looks nice&#x20;
+-   lockpick - The item used to trigger [qb-lockpick.md](qb-lockpick.md "mention")
+-   advancedlockpick - Another item used to trigger [qb-lockpick.md](qb-lockpick.md "mention")
 
 ## Commands
 
-* /resetparachute - Returns parachute back to the player
-* /resetarmor- Removes armor and gives heavyarmor back
+-   /resetparachute - Returns parachute back to the player
+-   /resetarmor- Removes armor and gives heavyarmor back

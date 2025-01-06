@@ -6,7 +6,7 @@ description: Fix 'em up real good
 
 ## Introduction
 
-* Players with the mechanic job can attach vehicles to "plates" and repair body/engine. This also includes a stash, job vehicles and a clock in/out location
+-   Players with the mechanic job can attach vehicles to "plates" and repair body/engine. This also includes a stash, job vehicles and a clock in/out location
 
 ## Preview
 
@@ -138,7 +138,7 @@ Config.RepairCostAmount = { -- the item and amount that is need to repair a part
 ### Vehicle part damage
 
 ```lua
-Config.Damages = { -- These are the menu labels for the respective part 
+Config.Damages = { -- These are the menu labels for the respective part
     ["radiator"] = "Radiator",
     ["axle"] = "Drive Shaft",
     ["brakes"] = "Brakes",
@@ -152,7 +152,7 @@ Config.MinimalMetersForDamage = { -- vehicle driving distance range
         max = 12000, -- maximum range for damage to occur
         multiplier = {
             min = 1, -- minimum damage multiplier
-            max = 8, -- maximum damage multiplier 
+            max = 8, -- maximum damage multiplier
         }
     },
     [2] = {
@@ -180,6 +180,6 @@ Config.MinimalMetersForDamage = { -- vehicle driving distance range
 Only players with citizenid's found in the config can use these commands
 {% endhint %}
 
-* /setmechanic - Hire a player as a mechanic
-* /firemechanic - Remove a player as a mechanic
-* /setvehiclestatus - Modify the vehicle part damage level
+-   /setmechanic - Hire a player as a mechanic
+-   /firemechanic - Remove a player as a mechanic
+-   /setvehiclestatus - Modify the vehicle part damage level

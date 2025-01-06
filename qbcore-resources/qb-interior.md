@@ -6,7 +6,7 @@ description: Which shell will it be?
 
 ## Introduction
 
-* Handles all the logic for spawning shell models by exporting functions that can be called in other client-side files
+-   Handles all the logic for spawning shell models by exporting functions that can be called in other client-side files
 
 ## Configuration
 

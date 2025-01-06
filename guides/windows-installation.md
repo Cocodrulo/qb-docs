@@ -7,7 +7,7 @@ description: Installing a QBCore server step by step.
 ## Database Configuration
 
 {% hint style="warning" %}
-XAMPP is optional here, you can install [MariaDB](https://native-network.net/downloads/download/895/) by itself! Just remember to configure your [ports](https://zap-hosting.com/guides/docs/en/vserver\_windows\_port/)!
+XAMPP is optional here, you can install [MariaDB](https://native-network.net/downloads/download/895/) by itself! Just remember to configure your [ports](https://zap-hosting.com/guides/docs/en/vserver_windows_port/)!
 {% endhint %}
 
 Install [XAMPP ](https://www.apachefriends.org/download.html)and [HeidiSQL.](https://www.heidisql.com/download.php)
@@ -20,7 +20,7 @@ If you want to auto start HeidiSQL and XAMPP when Windows starts. Launch XAMPP i
 
 ## HeidiSQL
 
-* Open HeidiSQL, click the green circle with the plus sign and name it something
+-   Open HeidiSQL, click the green circle with the plus sign and name it something
 
 {% hint style="success" %}
 The names don't matter, you can name them whatever you want!
@@ -32,7 +32,7 @@ The names don't matter, you can name them whatever you want!
 
 ## Artifact and txAdmin
 
-Make a new folder on your desktop and name it whatever you want, download the **latest recommended** FiveM [artifacts](https://runtime.fivem.net/artifacts/fivem/build\_server\_windows/master/), then extract them to the folder you made
+Make a new folder on your desktop and name it whatever you want, download the **latest recommended** FiveM [artifacts](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/), then extract them to the folder you made
 
 ![The webpage for downloading an artifact version](https://i.imgur.com/XxSPtRk.png)
 

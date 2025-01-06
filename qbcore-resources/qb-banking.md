@@ -6,12 +6,12 @@ description: Keep your money safe and quickly access!
 
 ## Introduction
 
-* Multiple ATM's & banks around the map to interact with
-* Handles all player interaction with bank/job/gang/shared accounts
-* ATM and bank card integration
-* Shared accounts between players
-* Auto creation of job/gang accounts on bank first open
-* Boss-only access to job/gang accounts
+-   Multiple ATM's & banks around the map to interact with
+-   Handles all player interaction with bank/job/gang/shared accounts
+-   ATM and bank card integration
+-   Shared accounts between players
+-   Auto creation of job/gang accounts on bank first open
+-   Boss-only access to job/gang accounts
 
 ## CreatePlayerAccount
 
@@ -21,11 +21,11 @@ Creates a new shared account for a player and returns where it was successful or
 exports['qb-banking']:CreatePlayerAccount(playerId, accountName, accountBalance, accountUsers)
 ```
 
-* playerId: `number`
-* accountName: `string`
-* accountBalance: `number`
-* accountUsers: `table`
-* returns: `boolean`
+-   playerId: `number`
+-   accountName: `string`
+-   accountBalance: `number`
+-   accountUsers: `table`
+-   returns: `boolean`
 
 ```lua
 RegisterCommand('createPlayerAccount', function(source)
@@ -45,8 +45,8 @@ Creates a new job type account, this is automatically done so shouldn't need thi
 exports['qb-banking']:CreateJobAccount(accountName, accountBalance)
 ```
 
-* accountName: `string`
-* accountBalance: `number`
+-   accountName: `string`
+-   accountBalance: `number`
 
 #### Example:
 
@@ -66,8 +66,8 @@ Creates a new gang type account, this is automatically done so shouldn't need th
 exports['qb-banking']:CreateGangAccount(accountName, accountBalance)
 ```
 
-* accountName: `string`
-* accountBalance: `number`
+-   accountName: `string`
+-   accountBalance: `number`
 
 #### Example:
 
@@ -87,10 +87,10 @@ Adds money to an account by name and returns where it was successful or not
 exports['qb-banking']:AddMoney(accountName, amount, reason)
 ```
 
-* accountName: `string`
-* amount: `number`
-* <mark style="color:yellow;">reason</mark>: `string`
-* returns: `boolean`
+-   accountName: `string`
+-   amount: `number`
+-   <mark style="color:yellow;">reason</mark>: `string`
+-   returns: `boolean`
 
 ```lua
 RegisterCommand('addMoney', function()
@@ -108,10 +108,10 @@ Removes money from an account by name and returns where it was successful or not
 exports['qb-banking']:RemoveMoney(accountName, amount, reason)
 ```
 
-* accountName: `string`
-* amount: `number`
-* <mark style="color:yellow;">reason</mark>: `string`
-* returns: `boolean`
+-   accountName: `string`
+-   amount: `number`
+-   <mark style="color:yellow;">reason</mark>: `string`
+-   returns: `boolean`
 
 ```lua
 RegisterCommand('removeMoney', function()
@@ -129,8 +129,8 @@ Returns all the information for the specified account by name
 exports['qb-banking']:GetAccount(accountName)
 ```
 
-* accountName: `string`
-* returns: `table | nil`
+-   accountName: `string`
+-   returns: `table | nil`
 
 ```lua
 RegisterCommand('getAccount', function()
@@ -153,8 +153,8 @@ Returns just the balance of the specified account by name
 exports['qb-banking']:GetAccountBalance(accountName)
 ```
 
-* accountName: `string`
-* returns: `number`
+-   accountName: `string`
+-   returns: `number`
 
 ```lua
 RegisterCommand('getBalance', function()
@@ -172,13 +172,13 @@ This will create a statement for a specified account and returns where it was su
 exports['qb-banking']:CreateBankStatement(playerId, account, amount, reason, statementType, accountType)
 ```
 
-* playerId: `number`
-* account: `string`
-* amount: `number`
-* reason: `string`
-* statementType: `string`
-* accountType: `string`
-* returns: `boolean`
+-   playerId: `number`
+-   account: `string`
+-   amount: `number`
+-   reason: `string`
+-   statementType: `string`
+-   accountType: `string`
+-   returns: `boolean`
 
 ```lua
 RegisterCommand('createBankStatement', function(source)

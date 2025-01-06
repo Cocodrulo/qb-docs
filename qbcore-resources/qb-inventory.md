@@ -6,9 +6,9 @@ description: Store your precious!
 
 ## Introduction
 
-* Handles all the player's storage such as personal, vehicle, stash, drops
-* [qb-shops.md](qb-shops.md "mention") integration for displaying all items available to buy
-* Built-in support for usable vending machines
+-   Handles all the player's storage such as personal, vehicle, stash, drops
+-   [qb-shops.md](qb-shops.md "mention") integration for displaying all items available to buy
+-   Built-in support for usable vending machines
 
 {% hint style="danger" %}
 All exports listed are SERVER only unless specified
@@ -98,9 +98,9 @@ This function will retrieve the players inventory from the database via their un
 exports['qb-inventory']:LoadInventory(source, citizenid)
 ```
 
-* source: `number`
-* citizenid: `string`
-* <mark style="color:yellow;">returns</mark>: `table`
+-   source: `number`
+-   citizenid: `string`
+-   <mark style="color:yellow;">returns</mark>: `table`
 
 ```lua
 RegisterCommand('getInv', function(source)
@@ -119,8 +119,8 @@ This function saves the players current items to the database
 exports['qb-inventory']:SaveInventory(source, offline)
 ```
 
-* source: `number`
-* offline: `boolean`
+-   source: `number`
+-   offline: `boolean`
 
 #### Example:
 
@@ -136,8 +136,8 @@ end)
 exports['qb-inventory']:ClearInventory(source, filterItems)
 ```
 
-* source: `number`
-* filterItems: `string | table`
+-   source: `number`
+-   filterItems: `string | table`
 
 Example:
 
@@ -162,8 +162,8 @@ end, true)
 exports['qb-inventory']:CloseInventory(source, identifier)
 ```
 
-* source: `number`
-* identifier: `string`
+-   source: `number`
+-   identifier: `string`
 
 Example:
 
@@ -185,9 +185,9 @@ end, true)
 exports['qb-inventory']:OpenInventory(source, identifier, data)
 ```
 
-* source: `number`
-* identifier: `string | optional`
-* data: `table | optional`
+-   source: `number`
+-   identifier: `string | optional`
+-   data: `table | optional`
 
 #### Example:
 
@@ -214,8 +214,8 @@ end, true)
 exports['qb-inventory']:OpenInventoryById(source, playerId)
 ```
 
-* source: `number`
-* playerId: `number`
+-   source: `number`
+-   playerId: `number`
 
 #### Example:
 
@@ -236,7 +236,7 @@ end, true)
 exports['qb-inventory']:CreateShop(shopData)
 ```
 
-* shopData: `table`
+-   shopData: `table`
 
 ```lua
 local items = {
@@ -266,8 +266,8 @@ Coords being passed to `createShop` will be checked against the player's current
 exports['qb-inventory']:OpenShop(source, name)
 ```
 
-* source: `number`
-* name: `string`
+-   source: `number`
+-   name: `string`
 
 ```lua
 RegisterCommand('openShop', function(source)
@@ -281,10 +281,10 @@ end)
 exports['qb-inventory']:CanAddItem(source, item, amount)
 ```
 
-* source: `number`
-* item: `string`
-* amount: `number`
-* <mark style="color:yellow;">returns</mark>: `boolean`
+-   source: `number`
+-   item: `string`
+-   amount: `number`
+-   <mark style="color:yellow;">returns</mark>: `boolean`
 
 Example:
 
@@ -308,13 +308,13 @@ end, true)
 exports['qb-inventory']:AddItem(identifier, item, amount, slot, info, reason)
 ```
 
-* identifier: `number`
-* item: `string`
-* amount: `number`
-* slot: `number | boolean`
-* info: `table | boolean`
-* reason: `string`
-* <mark style="color:yellow;">returns</mark>: `boolean`
+-   identifier: `number`
+-   item: `string`
+-   amount: `number`
+-   slot: `number | boolean`
+-   info: `table | boolean`
+-   reason: `string`
+-   <mark style="color:yellow;">returns</mark>: `boolean`
 
 #### Example:
 
@@ -332,12 +332,12 @@ end, true)
 exports['qb-inventory']:RemoveItem(identifier, item, amount, slot, reason)
 ```
 
-* identifier: `number`
-* item: `string`
-* amount: `number`
-* slot: `number | boolean`
-* reason: `string`
-* <mark style="color:yellow;">returns</mark>: `boolean`
+-   identifier: `number`
+-   item: `string`
+-   amount: `number`
+-   slot: `number | boolean`
+-   reason: `string`
+-   <mark style="color:yellow;">returns</mark>: `boolean`
 
 ```lua
 RegisterCommand('removeItem', function(source, args)
@@ -353,8 +353,8 @@ end, true)
 exports['qb-inventory']:SetInventory(source, items)
 ```
 
-* source: `number`
-* items: `table`
+-   source: `number`
+-   items: `table`
 
 Example:
 
@@ -390,11 +390,11 @@ This function uses GetItemByName to find the itemName being passed
 exports['qb-inventory']:SetItemData(source, itemName, key, val)
 ```
 
-* source: `number`
-* itemName: `string`
-* key: `string`
-* val: `string | table`
-* <mark style="color:yellow;">returns</mark>: `boolean`
+-   source: `number`
+-   itemName: `string`
+-   key: `string`
+-   val: `string | table`
+-   <mark style="color:yellow;">returns</mark>: `boolean`
 
 Example:
 
@@ -436,8 +436,8 @@ end, true)
 exports['qb-inventory']:UseItem(itemName, ...)
 ```
 
-* itemName: `string`
-* . . . : `function`
+-   itemName: `string`
+-   . . . : `function`
 
 Example:
 
@@ -461,10 +461,10 @@ This export is also available to use on the client
 exports['qb-inventory']:HasItem(source, items, amount)
 ```
 
-* source: `number`
-* items: `string | table`
-* amount: `number`
-* <mark style="color:yellow;">returns</mark>: `boolean`
+-   source: `number`
+-   items: `string | table`
+-   amount: `number`
+-   <mark style="color:yellow;">returns</mark>: `boolean`
 
 Example:
 
@@ -508,9 +508,9 @@ end, true)
 exports['qb-inventory']:GetSlotsByItem(items, itemName)
 ```
 
-* items: `table`
-* itemName: `string`
-* <mark style="color:yellow;">returns</mark>: `table`
+-   items: `table`
+-   itemName: `string`
+-   <mark style="color:yellow;">returns</mark>: `table`
 
 Example:
 
@@ -533,9 +533,9 @@ end, true)
 exports['qb-inventory']:GetFirstSlotByItem(items, itemName)
 ```
 
-* items: `table`
-* itemName: `string`
-* <mark style="color:yellow;">returns</mark>: `number`
+-   items: `table`
+-   itemName: `string`
+-   <mark style="color:yellow;">returns</mark>: `number`
 
 Example:
 
@@ -560,9 +560,9 @@ end, true)
 exports['qb-inventory']:GetItemBySlot(source, slot)
 ```
 
-* source: `number`
-* slot: `number`
-* <mark style="color:yellow;">returns</mark>: `table`
+-   source: `number`
+-   slot: `number`
+-   <mark style="color:yellow;">returns</mark>: `table`
 
 Example:
 
@@ -585,9 +585,9 @@ end, true)
 exports['qb-inventory']:GetItemByName(source, item)
 ```
 
-* source: `number`
-* item: `string`
-* <mark style="color:yellow;">returns</mark>: `table`
+-   source: `number`
+-   item: `string`
+-   <mark style="color:yellow;">returns</mark>: `table`
 
 Example:
 
@@ -610,9 +610,9 @@ end, true)
 exports['qb-inventory']:GetItemsByName(source, item)
 ```
 
-* source: `number`
-* item: `string`
-* <mark style="color:yellow;">returns</mark>: `table`
+-   source: `number`
+-   item: `string`
+-   <mark style="color:yellow;">returns</mark>: `table`
 
 Example:
 
@@ -638,9 +638,9 @@ end, true)
 exports['qb-inventory']:GetItemCount(source, items)
 ```
 
-* source: `number`
-* items: `string | table`
-* <mark style="color:yellow;">returns</mark>: `number`
+-   source: `number`
+-   items: `string | table`
+-   <mark style="color:yellow;">returns</mark>: `number`
 
 Example:
 

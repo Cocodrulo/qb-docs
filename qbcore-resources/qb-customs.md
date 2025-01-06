@@ -6,7 +6,7 @@ description: Customize your ride!
 
 ## Introduction
 
-* Handles all vehicle customization and can be locked to a job or open to all players
+-   Handles all vehicle customization and can be locked to a job or open to all players
 
 ## Preview
 
@@ -28,7 +28,7 @@ maxVehiclePerformanceUpgrades = 0 -- | All Upgrades: 0 | No Upgrades: -1 | Can b
 
 ### Locations
 
-* Found in shared/locations.lua
+-   Found in shared/locations.lua
 
 ```lua
 Config.Locations = {
@@ -65,7 +65,7 @@ Config.Locations = {
         drawtextui = { -- Displays when going into shop zone
             text = "Bennys Motorworks"
         },
-        restrictions = { 
+        restrictions = {
             job = { 'bennys', 'mechanic'}, -- Whitelist Jobs (optional)
             allowedClasses = { 18 }, -- Whitelist vehicle classes (optional)
             deniedClasses = { 18 } -- Restrict vehicle classes (optional)

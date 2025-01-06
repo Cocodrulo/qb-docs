@@ -6,7 +6,7 @@ description: Comms on point
 
 ## Introduction
 
-* In addition to [qb-phone.md](qb-phone.md "mention") there is also the radio resource which provides another form of communication between players
+-   In addition to [qb-phone.md](qb-phone.md "mention") there is also the radio resource which provides another form of communication between players
 
 {% hint style="success" %}
 The phone and radio both work off the [PMA](https://github.com/AvarianKnight/pma-voice) voice system

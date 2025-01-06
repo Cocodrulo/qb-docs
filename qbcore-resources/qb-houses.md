@@ -6,7 +6,7 @@ description: Buy & customize your dream home!
 
 ## Introduction
 
-* Allows players to purchase homes that are created by those with the real-estate job. They can decorate them, have a personal garage and share keys with their friends
+-   Allows players to purchase homes that are created by those with the real-estate job. They can decorate them, have a personal garage and share keys with their friends
 
 {% hint style="success" %}
 By default, this resource uses the 16 free shells found in [qb-interior.md](qb-interior.md "mention")
@@ -36,7 +36,7 @@ Config.Furniture = {} -- pre-filled with tons of options
 
 ### Shells
 
-* Found in qb-houses/client/main.lua at line 697
+-   Found in qb-houses/client/main.lua at line 697
 
 ```lua
 local function getDataForHouseTier(house, coords)
@@ -44,12 +44,12 @@ local function getDataForHouseTier(house, coords)
 
 ## Commands
 
-* /decorate - Allows the player decorate the house
-* /createhouse \[price] \[tier] - Creates a house and saves it to database
-* /addgarage - Adds a garage to nearby house
-* /enter - Enters the nearby house
-* /ring - Rings the bell of nearby house
+-   /decorate - Allows the player decorate the house
+-   /createhouse \[price] \[tier] - Creates a house and saves it to database
+-   /addgarage - Adds a garage to nearby house
+-   /enter - Enters the nearby house
+-   /ring - Rings the bell of nearby house
 
 ## Items
 
-* police\_stormram - Allows on-duty police to enter and search a player's home
+-   police_stormram - Allows on-duty police to enter and search a player's home

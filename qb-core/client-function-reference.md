@@ -6,7 +6,7 @@ description: Learn about and how to use common core client functions!
 
 ### QBCore.Functions.GetPlayerData
 
-* Perhaps the most used function in the framework. This function returns the players data of the current source which, since its used client side, is automatically the client or player. It can be used with modifiers on the end starting with a "." (period)
+-   Perhaps the most used function in the framework. This function returns the players data of the current source which, since its used client side, is automatically the client or player. It can be used with modifiers on the end starting with a "." (period)
 
 ```lua
 function QBCore.Functions.GetPlayerData(cb)
@@ -28,7 +28,7 @@ print(jobName)
 
 ### QBCore.Functions.GetCoords
 
-* This function operates very similarly to how the native GetEntityCoords does, but it returns the heading as well
+-   This function operates very similarly to how the native GetEntityCoords does, but it returns the heading as well
 
 ```lua
 function QBCore.Functions.GetCoords(entity)
@@ -43,7 +43,7 @@ print(coords)
 
 ### QBCore.Functions.HasItem
 
-* Returns whether a player has a certain item
+-   Returns whether a player has a certain item
 
 ```lua
 function QBCore.Functions.HasItem(item)
@@ -62,11 +62,11 @@ print(hasItem)
 
 ### QBCore.Functions.Notify
 
-| Arguments |       Type      | Required |    Default    |
+| Arguments |      Type       | Required |    Default    |
 | :-------: | :-------------: | :------: | :-----------: |
-|  message  | string \| table |    yes   | 'Placeholder' |
-|    type   |      string     |    yes   |   'primary'   |
-|   length  |      number     |    yes   |      5000     |
+|  message  | string \| table |   yes    | 'Placeholder' |
+|   type    |     string      |   yes    |   'primary'   |
+|  length   |     number      |   yes    |     5000      |
 
 ```lua
 function QBCore.Functions.Notify(text, textype, length)
@@ -101,7 +101,7 @@ QBCore.Functions.Notify({text = 'Test', caption = 'Test Caption'}, 'police', 500
 
 ### QBCore.Functions.TriggerCallback
 
-* Function used to call from the client to the server and receive a value back
+-   Function used to call from the client to the server and receive a value back
 
 ```lua
 function QBCore.Functions.TriggerCallback(name, cb, ...)
@@ -118,7 +118,7 @@ end, 'my_parameter_name')
 
 ### QBCore.Functions.Progressbar
 
-* Wrapper for progressbar export
+-   Wrapper for progressbar export
 
 ```lua
 function QBCore.Functions.Progressbar(name, label, duration, useWhileDead, canCancel, disableControls, animation, prop, propTwo, onFinish, onCancel)
@@ -196,7 +196,7 @@ end)
 
 ### QBCore.Functions.GetVehicles
 
-* Returns vehicle game pool (for backwards compatibility) - Not worth using
+-   Returns vehicle game pool (for backwards compatibility) - Not worth using
 
 ```lua
 function QBCore.Functions.GetVehicles()
@@ -216,7 +216,7 @@ print(QBCore.Debug(vehicles))
 
 ### QBCore.Functions.GetCoreObject
 
-* Returns the core object for accessing
+-   Returns the core object for accessing
 
 ```lua
 exports('GetCoreObject', function()
@@ -234,7 +234,7 @@ QBCore = exports['qb-core']:GetCoreObject()
 
 ### QBCore.Functions.GetPlayers
 
-* Returns active players in OneSync scope (for backwards compatibility) - Not worth using
+-   Returns active players in OneSync scope (for backwards compatibility) - Not worth using
 
 ```lua
 function QBCore.Functions.GetPlayers()
@@ -254,7 +254,7 @@ print(QBCore.Debug(players))
 
 ### QBCore.Functions.GetPeds
 
-* Returns a model hash filtered ped game pool
+-   Returns a model hash filtered ped game pool
 
 ```lua
 function QBCore.Functions.GetPeds(ignoreList -- [[table]])
@@ -283,7 +283,7 @@ print(QBCore.Debug(peds))
 
 ### QBCore.Functions.GetClosestPed
 
-* Returns the closest ped to the player after filtering
+-   Returns the closest ped to the player after filtering
 
 ```lua
 function QBCore.Functions.GetClosestPed(coords, ignoreList)
@@ -318,7 +318,7 @@ print(closestPed, distance)
 
 ### QBCore.Functions.GetClosestVehicle
 
-* Returns the closest vehicle to the player
+-   Returns the closest vehicle to the player
 
 ```lua
 function QBCore.Functions.GetClosestVehicle(coords)
@@ -352,7 +352,7 @@ print(closestVehicle, distance)
 
 ### QBCore.Functions.GetClosestObject
 
-* Returns the closest object to the player
+-   Returns the closest object to the player
 
 ```lua
 function QBCore.Functions.GetClosestObject(coords)
@@ -385,7 +385,7 @@ print(closestObject, distance)
 
 ### QBCore.Functions.GetClosestPlayer
 
-* Returns the closest player to the client
+-   Returns the closest player to the client
 
 ```lua
 function QBCore.Functions.GetClosestPlayer(coords)
@@ -421,7 +421,7 @@ print(closestPlayer, distance)
 
 ### QBCore.Functions.GetPlayersFromCoords
 
-* Returns all players within a radius of specific coordinates
+-   Returns all players within a radius of specific coordinates
 
 ```lua
 function QBCore.Functions.GetPlayersFromCoords(coords, distance)
@@ -455,7 +455,7 @@ print(QBCore.Debug(closestPlayers))
 
 ### QBCore.Functions.SpawnVehicle
 
-* Spawn a vehicle
+-   Spawn a vehicle
 
 ```lua
 function QBCore.Functions.SpawnVehicle(model, cb, coords, isnetworked)
@@ -501,7 +501,7 @@ end, coords, true)
 
 ### QBCore.Functions.DeleteVehicle
 
-* Delete a specific vehicle through the client - Not worth using
+-   Delete a specific vehicle through the client - Not worth using
 
 ```lua
 function QBCore.Functions.DeleteVehicle(vehicle)
@@ -546,7 +546,7 @@ end
 
 ### QBCore.Functions.GetPlate
 
-* Returns the plate text of a specific vehicle after trimming the whitespace from it
+-   Returns the plate text of a specific vehicle after trimming the whitespace from it
 
 ```lua
 function QBCore.Functions.GetPlate(vehicle)
@@ -563,7 +563,7 @@ print(plate)
 
 ### QBCore.Functions.GetVehicleProperties
 
-* Get all properties of a vehicle
+-   Get all properties of a vehicle
 
 ```lua
 function QBCore.Functions.GetVehicleProperties(vehicle)
@@ -674,7 +674,7 @@ print(QBCore.Debug(vehicleProps))
 
 ### QBCore.Functions.SetVehicleProperties
 
-* Set all properties for a vehicle
+-   Set all properties for a vehicle
 
 ```lua
 function QBCore.Functions.SetVehicleProperties(vehicle, props)

@@ -6,29 +6,29 @@ description: Ok now you're just showing off
 
 ## Introduction
 
-* Handles the logic for vehicle shops
-* Uses [qb-menu.md](qb-menu.md "mention") and [qb-input.md](qb-input.md "mention") to handle the interactions with optional [qb-target.md](qb-target.md "mention") integration
-* Add custom cars by adding them to your vehicles.lua in your qb-core [shared.md](../qb-core/shared.md "mention") table
+-   Handles the logic for vehicle shops
+-   Uses [qb-menu.md](qb-menu.md "mention") and [qb-input.md](qb-input.md "mention") to handle the interactions with optional [qb-target.md](qb-target.md "mention") integration
+-   Add custom cars by adding them to your vehicles.lua in your qb-core [shared.md](../qb-core/shared.md "mention") table
 
 **Test Drives:**
 
-* Configurable time
-* Returns player once time is up
-* Can't take out more than one vehicle
+-   Configurable time
+-   Returns player once time is up
+-   Can't take out more than one vehicle
 
 **Financing:**
 
-* Configurable down payment
-* Configurable maximum payments
-* Configurable commission amount for private dealerships
-* Checks for payments due on player join and updates times on player logout or quit
+-   Configurable down payment
+-   Configurable maximum payments
+-   Configurable commission amount for private dealerships
+-   Checks for payments due on player join and updates times on player logout or quit
 
 **Shops:**
 
-* Lock to a specific job
-* Commission paid to sales person for private dealer
-* Create as many as desired with easy polyzone creation
-* Vehicle sale amount gets deposited into the cardealer society fund for private dealer
+-   Lock to a specific job
+-   Commission paid to sales person for private dealer
+-   Create as many as desired with easy polyzone creation
+-   Vehicle sale amount gets deposited into the cardealer society fund for private dealer
 
 ## Preview
 
@@ -59,7 +59,7 @@ A free-use shop can be accessed by any players whereas a managed shop can only b
 ```lua
 Config.Shops = {
     ['pdm'] = {
-        ['Type'] = 'free-use',  -- free-use/managed 
+        ['Type'] = 'free-use',  -- free-use/managed
         ['Zone'] = {
             ['Shape'] = { -- polyzone that surrounds the shop
                 vector2(-56.727394104004, -1086.2325439453),

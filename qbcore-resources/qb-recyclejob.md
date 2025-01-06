@@ -6,7 +6,7 @@ description: Everyday is earth day
 
 ## Introduction
 
-* Allows players to work as a recycler and earn items!
+-   Allows players to work as a recycler and earn items!
 
 {% hint style="success" %}
 This job does not pay out money by default, it pairs well with the crafting system from [qb-inventory.md](qb-inventory.md "mention")

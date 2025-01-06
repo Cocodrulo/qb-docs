@@ -12,12 +12,12 @@ This function allows you to register a command with a specified user level
 QBCore.Commands.Add(name, help, arguments, argsrequired, callback, permission, ...)
 ```
 
-* name: `string`
-* help: `string`
-* arguments: `table`
-* argsrequired: `boolean`
-* callback: `function`
-* permission: `string`
+-   name: `string`
+-   help: `string`
+-   arguments: `table`
+-   argsrequired: `boolean`
+-   callback: `function`
+-   permission: `string`
 
 Example:
 
@@ -42,7 +42,7 @@ This function will trigger a refresh of all commands suggestions. This is helpfu
 QBCore.Commands.Refresh(source)
 ```
 
-* source: `number`
+-   source: `number`
 
 Example:
 
@@ -133,7 +133,7 @@ Creates an announcement to be sent to all players in the chat.&#x20;
 
 **Permission level:** admin
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -145,7 +145,7 @@ Sends a message to staff in the chat and stores the message as a report
 
 **Permission level:** user
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -157,7 +157,7 @@ Replies to a user report with the given `message`
 
 **Permission level:** admin
 
-* **message** - (required) The message to send in the reply
+-   **message** - (required) The message to send in the reply
 
 </details>
 
@@ -179,7 +179,7 @@ Sends a message in chat visible only to users with the 'admin' permission level
 
 **Permission level:** admin
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -191,8 +191,8 @@ Sends a message to the player with the given `id` with the `reason` given. Also,
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player being warned
-* **reason** - (required) The reason for giving a warning
+-   **id** - (required) The id of the player being warned
+-   **reason** - (required) The reason for giving a warning
 
 </details>
 
@@ -204,8 +204,8 @@ Checks for existing warnings against a player with the given `id`. If no warning
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player being checked
-* **number** - (optional) The warning number (1, 2, 3, etc...)
+-   **id** - (required) The id of the player being checked
+-   **number** - (optional) The warning number (1, 2, 3, etc...)
 
 </details>
 
@@ -217,8 +217,8 @@ Deletes a warning from a player and removes the database entry
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player
-* **number** - (required) The warning number to be deleted (1, 2, 3 etc...)
+-   **id** - (required) The id of the player
+-   **number** - (required) The warning number to be deleted (1, 2, 3 etc...)
 
 </details>
 
@@ -226,14 +226,14 @@ Deletes a warning from a player and removes the database entry
 
 <summary>/givenuifocus [id] [hasFocus] [hasCursor] - Sets nuifocus state for player</summary>
 
-This command sets the NUI focus state for a player with the given `id`. This allows you to manually set the following native: [https://docs.fivem.net/natives/?\_0x5B98AE30](https://docs.fivem.net/natives/?\_0x5B98AE30)\
+This command sets the NUI focus state for a player with the given `id`. This allows you to manually set the following native: [https://docs.fivem.net/natives/?\_0x5B98AE30](https://docs.fivem.net/natives/?_0x5B98AE30)\
 Useful if a player is stuck in an NUI overlay.
 
 **Permission level:** admin
 
-* **id** - (required) The id of the player
-* **hasFocus** - (required) \[true/false] Whether the NUI has focus or not
-* **hasCursor** - (required) \[true/false] Whether the player has cursor when using NUI
+-   **id** - (required) The id of the player
+-   **hasFocus** - (required) \[true/false] Whether the NUI has focus or not
+-   **hasCursor** - (required) \[true/false] Whether the player has cursor when using NUI
 
 </details>
 
@@ -245,8 +245,8 @@ Changes the ped `model` of the player with the given `id`.
 
 **Permission level:** admin
 
-* **model** - (required) The ped model to change to
-* **id** - (required) The id of the player whos ped model is being changed
+-   **model** - (required) The ped model to change to
+-   **id** - (required) The id of the player whos ped model is being changed
 
 </details>
 
@@ -258,7 +258,7 @@ Sets your foot speed between default and "fast"
 
 **Permission level:** admin
 
-* **speed** - (optional) \["fast"] will set foot speed to "fast". If this argument is left blank it will set foot speed to "normal"
+-   **speed** - (optional) \["fast"] will set foot speed to "fast". If this argument is left blank it will set foot speed to "normal"
 
 </details>
 
@@ -280,8 +280,8 @@ Sets the ammo amount for current gun in hand or `weapon` if given
 
 **Permission level:** admin
 
-* **amount** - (required) The amount of ammo to set
-* **weapon** - (optional) The weapon to set the ammo for. Will set ammo for current gun in hand if left blank
+-   **amount** - (required) The amount of ammo to set
+-   **weapon** - (optional) The weapon to set the ammo for. Will set ammo for current gun in hand if left blank
 
 </details>
 
@@ -335,9 +335,9 @@ Teleports you to either a player with the given `id` or to a given `x, y, z` loc
 
 **Permission level:** admin
 
-* **id or x** - (required) The player id or x coordinate
-* **y** - (optional) The y coordinate (required if using x for the first argument)
-* **z** - (optional) The z coordinate (required if using x for the first argument)
+-   **id or x** - (required) The player id or x coordinate
+-   **y** - (optional) The y coordinate (required if using x for the first argument)
+-   **z** - (optional) The z coordinate (required if using x for the first argument)
 
 </details>
 
@@ -429,9 +429,9 @@ Gives money to a player
 
 **Permission level:** admin
 
-* **id** - (required) The `id` of the player
-* **type** - (required) The money type \[cash, bank etc...]
-* **amount** - (required) The amount to give
+-   **id** - (required) The `id` of the player
+-   **type** - (required) The money type \[cash, bank etc...]
+-   **amount** - (required) The amount to give
 
 </details>
 
@@ -443,9 +443,9 @@ Sets the amount of money a player has.
 
 **Permission level:** admin
 
-* **id** - (required) The `id` of the player
-* **type** - (required) The money type \[cash, bank etc...]
-* **amount** - (required) The amount to set
+-   **id** - (required) The `id` of the player
+-   **type** - (required) The money type \[cash, bank etc...]
+-   **amount** - (required) The amount to set
 
 </details>
 
@@ -467,9 +467,9 @@ Sets a player with the given `id` to have the given `job` with the given `grade`
 
 **Permission level:** admin
 
-* **id -** (required) The `id` of the player
-* **job** - (required) The job name
-* **grade** - (required) The job grade
+-   **id -** (required) The `id` of the player
+-   **job** - (required) The job name
+-   **grade** - (required) The job grade
 
 </details>
 
@@ -491,9 +491,9 @@ Sets a player with the given `id` to be part of the given `gang` with the given 
 
 **Permission level:** admin
 
-* **id** - (required) The `id` of the player
-* **gang** - (required) The gang name
-* **grade** (required) The gang grade
+-   **id** - (required) The `id` of the player
+-   **gang** - (required) The gang name
+-   **grade** (required) The gang grade
 
 </details>
 
@@ -505,7 +505,7 @@ Clears the inventory of a player with the given `id` or your own inventory if no
 
 **Permission level:** admin
 
-* **id** - (optional) The id of a player
+-   **id** - (optional) The id of a player
 
 </details>
 
@@ -517,7 +517,7 @@ Sends an out-of-character (ooc) message to the chat.
 
 **Permission level:** user
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -529,7 +529,7 @@ Shows a 3d text message above your head. Useful for enhancing roleplay.
 
 **Permission level:** user
 
-* **message** - (required) The message to display
+-   **message** - (required) The message to display
 
 </details>
 
@@ -543,7 +543,7 @@ Sends a message to EMS players with the job 'ambulance'.
 
 **Permission level:** user
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -605,7 +605,7 @@ Kills the player with the given `id` or kills yourself if no id is given.
 
 **Permission level:** admin
 
-* **id** - (optional) The player id
+-   **id** - (optional) The player id
 
 </details>
 
@@ -617,7 +617,7 @@ Heals a player with the given `id` or heals yourself if no id is given.
 
 **Permission level:** admin
 
-* **id** - (optional) The player id
+-   **id** - (optional) The player id
 
 </details>
 
@@ -631,7 +631,7 @@ This command sends an alert to all players with the job 'police'. The alert will
 
 **Permission level:** user
 
-* **message** - (required) The message to send with the alert
+-   **message** - (required) The message to send with the alert
 
 </details>
 
@@ -655,8 +655,8 @@ This command can only be used by players with the job of 'police' above the mini
 
 **Permission level:** user
 
-* **id** - (required) The id of the player
-* **license** - (required) The license type (E.g. "weapon" or "driver")
+-   **id** - (required) The id of the player
+-   **license** - (required) The license type (E.g. "weapon" or "driver")
 
 </details>
 
@@ -670,8 +670,8 @@ This command can only be used by players with the job of 'police' above the mini
 
 **Permission level:** user
 
-* **id** - (required) The id of the player
-* **license** - (required) The license type (E.g. "weapon" or "driver")
+-   **id** - (required) The id of the player
+-   **license** - (required) The license type (E.g. "weapon" or "driver")
 
 </details>
 
@@ -683,13 +683,13 @@ Allows a player with the job of 'police' to spawn an object
 
 **Permission level:** user
 
-* **type** - (required) The object type. Available types:
-  * **cone** - a traffic cone
-  * **barrier** - a roadblock barrier
-  * **roadsign** - a road sign
-  * **tent** - a gazebo for crime scenes
-  * **light** - a work light
-  * **delete** - delete an object
+-   **type** - (required) The object type. Available types:
+    -   **cone** - a traffic cone
+    -   **barrier** - a roadblock barrier
+    -   **roadsign** - a road sign
+    -   **tent** - a gazebo for crime scenes
+    -   **light** - a work light
+    -   **delete** - delete an object
 
 </details>
 
@@ -737,7 +737,7 @@ Allows a player with the job of 'police' to set their callsign. The callsign is 
 
 **Permission level:** user
 
-* **name** - (required) the callsign to be used
+-   **name** - (required) the callsign to be used
 
 </details>
 
@@ -763,7 +763,7 @@ Can only be used by players with the job of 'police'
 
 **Permission level:** user
 
-* **id** - (required) the id of the player
+-   **id** - (required) the id of the player
 
 </details>
 
@@ -811,7 +811,7 @@ Allows a player with the job of 'police' to view security cameras. Security came
 
 **Permission level:** user
 
-* **id** - (required) the id of the camera
+-   **id** - (required) the id of the camera
 
 </details>
 
@@ -823,8 +823,8 @@ Allows speed cameras that can be set up in the config to find a flagged plate. S
 
 **Permission level:** user
 
-* **plate** - (required) the plate to be flagged
-* **reason** - (required) the reason for the flag
+-   **plate** - (required) the plate to be flagged
+-   **reason** - (required) the reason for the flag
 
 </details>
 
@@ -836,7 +836,7 @@ Removes the flag on the plate so cameras will no longer pick up the plate.
 
 **Permission level:** user
 
-* **plate** - (required) the plate to be unflagged
+-   **plate** - (required) the plate to be unflagged
 
 </details>
 
@@ -848,7 +848,7 @@ Shows whether a plate is flagged and gives the reason if so.
 
 **Permission level:** user
 
-* **plate** - (required) the plate to check
+-   **plate** - (required) the plate to check
 
 </details>
 
@@ -860,7 +860,7 @@ Allows a player with the job of 'police' to send a vehicle to the impound for th
 
 **Permission level:** user
 
-* **price** - (required) the price set for removing vehicle from depot
+-   **price** - (required) the price set for removing vehicle from depot
 
 </details>
 
@@ -884,7 +884,7 @@ Pays the player with the given `id` $500. The player being paid must have the jo
 
 **Permission level:** user
 
-* **id** - (required) the id of the player being paid
+-   **id** - (required) the id of the player being paid
 
 </details>
 
@@ -896,7 +896,7 @@ Pays the player with the given `id` $500. The player being paid must have the jo
 
 **Permission level:** user
 
-* **id** - (required) the id of the player being paid
+-   **id** - (required) the id of the player being paid
 
 </details>
 
@@ -922,7 +922,7 @@ Can only be used by players with the job of 'police'
 
 **Permission level:** user
 
-* **cid** - (required) the citizen id of the player being checked
+-   **cid** - (required) the citizen id of the player being checked
 
 </details>
 
@@ -946,136 +946,136 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 
 **Permission level:** user
 
-* **id** - (required) the id of the player
+-   **id** - (required) the id of the player
 
 </details>
 
 ### Banking
 
-* /givecash - gives the player an amount of cash
+-   /givecash - gives the player an amount of cash
 
 ### Cityhall
 
-* /drivinglicense - give player a license after a driving test
+-   /drivinglicense - give player a license after a driving test
 
 ### Binds
 
-* /binds - allows you to set customs key binds
+-   /binds - allows you to set customs key binds
 
 ### Diving
 
-* /divingsuit - uses the diving suit
+-   /divingsuit - uses the diving suit
 
 ### Doorlock
 
-* /newdoor - opens UI for creating new door
-* /doordebug - debug for doorlocks
+-   /newdoor - opens UI for creating new door
+-   /doordebug - debug for doorlocks
 
 ### Drugs
 
-* /newdealer - creats a new dealer at a location (front door of house)
-* /deletedealer - deales a saved dealer
-* /dealers - show list if info on dealers
-* /dealergoto - teleport to dealer
+-   /newdealer - creats a new dealer at a location (front door of house)
+-   /deletedealer - deales a saved dealer
+-   /dealers - show list if info on dealers
+-   /dealergoto - teleport to dealer
 
 ### Garbage
 
-* /cleargarbroutes - removes garbo routes for user
+-   /cleargarbroutes - removes garbo routes for user
 
 ### Hotdogjob
 
-* /removestand - removes a hotdog stand
+-   /removestand - removes a hotdog stand
 
 ### Housing
 
-* /decorate - opens decorate menu/options
-* /createhouse - creates a house at location
-* /addgarage - adds garage at location
-* /ring - rings a doorbell at location
+-   /decorate - opens decorate menu/options
+-   /createhouse - creates a house at location
+-   /addgarage - adds garage at location
+-   /ring - rings a doorbell at location
 
 ### Hud
 
-* /cash - displays current cash amount
-* /bank - displays current bank amount
-* /dev - displays a dev icon
+-   /cash - displays current cash amount
+-   /bank - displays current bank amount
+-   /dev - displays a dev icon
 
 ### Inventory
 
-* /resetinv - resets inventory on stash/trunk/glovebox
-* /rob - robs closest player
-* /giveitem - gives item to a player
-* /randomitems - gives random items to a player
+-   /resetinv - resets inventory on stash/trunk/glovebox
+-   /rob - robs closest player
+-   /giveitem - gives item to a player
+-   /randomitems - gives random items to a player
 
 ### Lapraces
 
-* /cancelrace - cancel the current race
-* /togglesetup - turn on or off race setup
+-   /cancelrace - cancel the current race
+-   /togglesetup - turn on or off race setup
 
 ### Mechanicjob
 
-* /setvehiclestatus - sets the vehicles status
-* /setmechanic - give someone the mechanic job
-* /firemechanic - fire a mechanic
+-   /setvehiclestatus - sets the vehicles status
+-   /setmechanic - give someone the mechanic job
+-   /firemechanic - fire a mechanic
 
 ### Multicharacter
 
-* /logout - logout of current character
-* /closeNUI - closes the multicharacter NUI
+-   /logout - logout of current character
+-   /closeNUI - closes the multicharacter NUI
 
 ### Newsjob
 
-* /newscam - gives player a a news camra
-* /newsmic - gives player a news microphone
-* /newsbmic - gives player a boom microphone
+-   /newscam - gives player a a news camra
+-   /newsmic - gives player a news microphone
+-   /newsbmic - gives player a boom microphone
 
 ### Phone
 
-* /setmetadata - sets the players metadata
-* /bill - sends a bill\* /invoice to player
+-   /setmetadata - sets the players metadata
+-   /bill - sends a bill\* /invoice to player
 
 ### RadialMenu
 
-* /getintrunk - Gets in the trunk
-* /putintrunk - puts a player in the trunk (kidnap)
+-   /getintrunk - Gets in the trunk
+-   /putintrunk - puts a player in the trunk (kidnap)
 
 ### Smallresources
 
-* /resetarmor - resets the armor
-* /resetparachute - resets a parachute
-* /testwebhook - test to see if webhook for logs is working
-* /id - displays your id
+-   /resetarmor - resets the armor
+-   /resetparachute - resets a parachute
+-   /testwebhook - test to see if webhook for logs is working
+-   /id - displays your id
 
 ### Streetrace
 
-* /createrace - starts a street race
-* /stoprace - stops current street race
-* /quitrace - quits the current street race
-* /startrace - starts the current street race
+-   /createrace - starts a street race
+-   /stoprace - stops current street race
+-   /quitrace - quits the current street race
+-   /startrace - starts the current street race
 
 ### Towjob
 
-* /npc - Toggles a tow job from a npc
-* /tow - puts closes vehicle on flatbed (must be behind truck)
+-   /npc - Toggles a tow job from a npc
+-   /tow - puts closes vehicle on flatbed (must be behind truck)
 
 ### Traphouse
 
-* /multikeys - gives keys to another player
+-   /multikeys - gives keys to another player
 
 ### Vehiclefailure
 
-* /fix - fixes current vehicle
+-   /fix - fixes current vehicle
 
 ### Vehiclekeys
 
-* /engine - toggles engine on/off
-* /givekeys - gives keys to a player
-* /addkeys - adds keys to that player
-* /removekeys - removes keys from player
+-   /engine - toggles engine on/off
+-   /givekeys - gives keys to a player
+-   /addkeys - adds keys to that player
+-   /removekeys - removes keys from player
 
 ### Vehicleshop
 
-* /transferVehicle - gift or sell your vehicle to someone
+-   /transferVehicle - gift or sell your vehicle to someone
 
 ### Weapons
 
-* /repairweapon - repairs a weapon
+-   /repairweapon - repairs a weapon

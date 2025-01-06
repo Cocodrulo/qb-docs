@@ -10,9 +10,9 @@ This resource handles all the job functionality for the ambulance job title + mo
 
 It includes:
 
-* Hospital bed check-in system ([https://github.com/ElusionPDX/mythic\_hospital](https://github.com/ElusionPDX/mythic\_hospital))
-* Full damage/bleeding system ([https://github.com/ElusionPDX/mythic\_hospital](https://github.com/ElusionPDX/mythic\_hospital))
-* Clock in/out, job shop, vehicle spawner
+-   Hospital bed check-in system ([https://github.com/ElusionPDX/mythic_hospital](https://github.com/ElusionPDX/mythic_hospital))
+-   Full damage/bleeding system ([https://github.com/ElusionPDX/mythic_hospital](https://github.com/ElusionPDX/mythic_hospital))
+-   Clock in/out, job shop, vehicle spawner
 
 ## Configuration
 
@@ -69,10 +69,10 @@ Config.VehicleSettings = {} -- Enable or disable vehicle extras when pulling the
 
 ## Items
 
-* ifaks - Relieves player stress and heals them by + 10
-* bandage - Heals player by + 10 and has 50% chance of removing 1 level of bleeding
-* firstaid - Completely heals closest player as long as they are in last-stand
-* painkillers - Stops bleeding temporarily but wears off over time
+-   ifaks - Relieves player stress and heals them by + 10
+-   bandage - Heals player by + 10 and has 50% chance of removing 1 level of bleeding
+-   firstaid - Completely heals closest player as long as they are in last-stand
+-   painkillers - Stops bleeding temporarily but wears off over time
 
 ## Events
 
@@ -149,7 +149,7 @@ Sends a message to EMS players with the job 'ambulance'.
 
 **Permission level:** user
 
-* **message** - (required) The message to send
+-   **message** - (required) The message to send
 
 </details>
 
@@ -211,7 +211,7 @@ Kills the player with the given `id` or kills yourself if no id is given.
 
 **Permission level:** admin
 
-* **id** - (optional) The player id
+-   **id** - (optional) The player id
 
 </details>
 
@@ -223,6 +223,6 @@ Heals a player with the given `id` or heals yourself if no id is given.
 
 **Permission level:** admin
 
-* **id** - (optional) The player id
+-   **id** - (optional) The player id
 
 </details>

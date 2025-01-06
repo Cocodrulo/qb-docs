@@ -6,7 +6,7 @@ description: I like buttons
 
 ## Introduction
 
-* An NUI menu with pressable buttons is very easy to use/edit and very versatile
+-   An NUI menu with pressable buttons is very easy to use/edit and very versatile
 
 {% hint style="success" %}
 Menu icons can be found on the [Font Awesome](https://fontawesome.com/) website
@@ -44,7 +44,7 @@ RegisterCommand('qbmenutest', function()
 		    message = 'This was called by clicking a button'
                 }
             }
-        },  
+        },
         {
             header = 'Second Button',
             txt = 'Open a secondary menu!',

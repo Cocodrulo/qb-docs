@@ -6,7 +6,7 @@ description: Ahhh too slow!
 
 ## Introduction
 
-* This is a JavaScript mini game that shows a bar at the bottom of the screen with a static box and a moving box. The goal is to press E when the moving box is inside the static box!
+-   This is a JavaScript mini game that shows a bar at the bottom of the screen with a static box and a moving box. The goal is to press E when the moving box is inside the static box!
 
 ## Preview
 

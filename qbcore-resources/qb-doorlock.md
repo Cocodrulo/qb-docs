@@ -6,7 +6,7 @@ description: Halt! Are you authorized?
 
 ## Introduction
 
-* This doorlock system is based on [nui\_doorlock by thelindat](https://github.com/thelindat/nui\_doorlock) and contains compatibility with its format
+-   This doorlock system is based on [nui_doorlock by thelindat](https://github.com/thelindat/nui_doorlock) and contains compatibility with its format
 
 ## Preview
 
@@ -134,5 +134,5 @@ Config.Consumables = { -- The items will get removed once used on a door that ha
 
 ## Commands
 
-* /newdoor - opens UI for creating new door (configure permission level in config)
-* /doordebug - debug for doorlocks
+-   /newdoor - opens UI for creating new door (configure permission level in config)
+-   /doordebug - debug for doorlocks

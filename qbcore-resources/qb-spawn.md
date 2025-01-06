@@ -6,7 +6,7 @@ description: Instant transmission
 
 ## Introduction
 
-* Configure multiple spawn locations for players to choose from and auto populates their houses that they own
+-   Configure multiple spawn locations for players to choose from and auto populates their houses that they own
 
 ## Preview
 

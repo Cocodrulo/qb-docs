@@ -6,9 +6,9 @@ description: Could someone please turn off the rain?
 
 ## Introduction
 
-* Handles the logic for changing and syncing the weather
-* Ability to set weather sync/desync weather&#x20;
-* Use exports to call weather changing events to any resource
+-   Handles the logic for changing and syncing the weather
+-   Ability to set weather sync/desync weather&#x20;
+-   Use exports to call weather changing events to any resource
 
 ## Configuration
 
@@ -20,13 +20,13 @@ Config.DynamicWeather   = true -- set this to false if you don't want the weathe
 
 -- On server start
 Config.StartWeather     = 'EXTRASUNNY' -- default weather
-Config.BaseTime         = 8 -- time     
-Config.TimeOffset       = 0 -- time offset 
-Config.FreezeTime       = false -- freeze time 
-Config.Blackout         = false -- set blackout                                 
-Config.BlackoutVehicle  = false -- set blackout affects vehicles                
-Config.NewWeatherTimer  = 10 -- time (in minutes) between each weather change   
-Config.Disabled         = false -- set weather disabled                         
+Config.BaseTime         = 8 -- time
+Config.TimeOffset       = 0 -- time offset
+Config.FreezeTime       = false -- freeze time
+Config.Blackout         = false -- set blackout
+Config.BlackoutVehicle  = false -- set blackout affects vehicles
+Config.NewWeatherTimer  = 10 -- time (in minutes) between each weather change
+Config.Disabled         = false -- set weather disabled
 ```
 
 ### Weather types

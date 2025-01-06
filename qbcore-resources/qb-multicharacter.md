@@ -6,7 +6,7 @@ description: Start your journey! Who will you be?
 
 ## Introduction
 
-* Allows your players to create a character by entering their name, date of birth, etc.
+-   Allows your players to create a character by entering their name, date of birth, etc.
 
 ## Preview
 

@@ -6,12 +6,12 @@ description: Obey & survive!
 
 ## Introduction
 
-* This resource manages police functions and interactions
-* Objects for police to place down via [qb-radialmenu.md](qb-radialmenu.md "mention") such as traffic cones and spike strips
-* Police stash, garage and armory
-* Cuffing players functions
-* Evidence system including blood DNA drops and fingerprints
-* Anklet Tracker for police to track players
+-   This resource manages police functions and interactions
+-   Objects for police to place down via [qb-radialmenu.md](qb-radialmenu.md "mention") such as traffic cones and spike strips
+-   Police stash, garage and armory
+-   Cuffing players functions
+-   Evidence system including blood DNA drops and fingerprints
+-   Anklet Tracker for police to track players
 
 ## Configuration
 
@@ -259,13 +259,13 @@ Config.AmmoLabels = { -- the type of ammo and it's label when dropped
 
 ## Evidence system
 
-* Random drop chance of bullet casings when player is shooting
-* Random chance of fingerprints left behind when player is not wearing gloves
-* Player statuses set when doing certain actions
+-   Random drop chance of bullet casings when player is shooting
+-   Random chance of fingerprints left behind when player is not wearing gloves
+-   Player statuses set when doing certain actions
 
 ### Configuration
 
-* Found in qb-policejob/client/evidence.lua
+-   Found in qb-policejob/client/evidence.lua
 
 ```lua
 local StatusList = { -- set a players status using an event
@@ -349,7 +349,7 @@ This command sends an alert to all players with the job 'police'. The alert will
 
 **Permission level:** user
 
-* **message** - (required) The message to send with the alert
+-   **message** - (required) The message to send with the alert
 
 </details>
 
@@ -373,8 +373,8 @@ This command can only be used by players with the job of 'police' above the mini
 
 **Permission level:** user
 
-* **id** - (required) The id of the player
-* **license** - (required) The license type (E.g. "weapon" or "driver")
+-   **id** - (required) The id of the player
+-   **license** - (required) The license type (E.g. "weapon" or "driver")
 
 </details>
 
@@ -388,8 +388,8 @@ This command can only be used by players with the job of 'police' above the mini
 
 **Permission level:** user
 
-* **id** - (required) The id of the player
-* **license** - (required) The license type (E.g. "weapon" or "driver")
+-   **id** - (required) The id of the player
+-   **license** - (required) The license type (E.g. "weapon" or "driver")
 
 </details>
 
@@ -401,13 +401,13 @@ Allows a player with the job of 'police' to spawn an object
 
 **Permission level:** user
 
-* **type** - (required) The object type. Available types:
-  * **cone** - a traffic cone
-  * **barrier** - a roadblock barrier
-  * **roadsign** - a road sign
-  * **tent** - a gazebo for crime scenes
-  * **light** - a work light
-  * **delete** - delete an object
+-   **type** - (required) The object type. Available types:
+    -   **cone** - a traffic cone
+    -   **barrier** - a roadblock barrier
+    -   **roadsign** - a road sign
+    -   **tent** - a gazebo for crime scenes
+    -   **light** - a work light
+    -   **delete** - delete an object
 
 </details>
 
@@ -455,7 +455,7 @@ Allows a player with the job of 'police' to set their callsign. The callsign is 
 
 **Permission level:** user
 
-* **name** - (required) the callsign to be used
+-   **name** - (required) the callsign to be used
 
 </details>
 
@@ -481,7 +481,7 @@ Can only be used by players with the job of 'police'
 
 **Permission level:** user
 
-* **id** - (required) the id of the player
+-   **id** - (required) the id of the player
 
 </details>
 
@@ -529,7 +529,7 @@ Allows a player with the job of 'police' to view security cameras. Security came
 
 **Permission level:** user
 
-* **id** - (required) the id of the camera
+-   **id** - (required) the id of the camera
 
 </details>
 
@@ -541,8 +541,8 @@ Allows speed cameras that can be set up in the config to find a flagged plate. S
 
 **Permission level:** user
 
-* **plate** - (required) the plate to be flagged
-* **reason** - (required) the reason for the flag
+-   **plate** - (required) the plate to be flagged
+-   **reason** - (required) the reason for the flag
 
 </details>
 
@@ -554,7 +554,7 @@ Removes the flag on the plate so cameras will no longer pick up the plate.
 
 **Permission level:** user
 
-* **plate** - (required) the plate to be unflagged
+-   **plate** - (required) the plate to be unflagged
 
 </details>
 
@@ -566,7 +566,7 @@ Shows whether a plate is flagged and gives the reason if so.
 
 **Permission level:** user
 
-* **plate** - (required) the plate to check
+-   **plate** - (required) the plate to check
 
 </details>
 
@@ -578,7 +578,7 @@ Allows a player with the job of 'police' to send a vehicle to the impound for th
 
 **Permission level:** user
 
-* **price** - (required) the price set for removing vehicle from depot
+-   **price** - (required) the price set for removing vehicle from depot
 
 </details>
 
@@ -602,7 +602,7 @@ Pays the player with the given `id` $500. The player being paid must have the jo
 
 **Permission level:** user
 
-* **id** - (required) the id of the player being paid
+-   **id** - (required) the id of the player being paid
 
 </details>
 
@@ -614,7 +614,7 @@ Pays the player with the given `id` $500. The player being paid must have the jo
 
 **Permission level:** user
 
-* **id** - (required) the id of the player being paid
+-   **id** - (required) the id of the player being paid
 
 </details>
 
@@ -640,7 +640,7 @@ Can only be used by players with the job of 'police'
 
 **Permission level:** user
 
-* **cid** - (required) the citizen id of the player being checked
+-   **cid** - (required) the citizen id of the player being checked
 
 </details>
 
@@ -664,10 +664,10 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 
 **Permission level:** user
 
-* **id** - (required) the id of the player
+-   **id** - (required) the id of the player
 
 </details>
 
 ## Items
 
-* handcuffs - Cuffs a player on use
+-   handcuffs - Cuffs a player on use

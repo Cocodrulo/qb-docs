@@ -6,12 +6,10 @@ description: Quickly bind commands to hotkeys
 
 ## Introduction
 
-* Allows users to bind keys to the keys F2-F9 can also be changed in the "Fivem" section of GTAV "keybinds" menu
+-   Allows users to bind keys to the keys F2-F9 can also be changed in the "Fivem" section of GTAV "keybinds" menu
 
 {% hint style="info" %}
 Using the menu is as easy as putting the command name in the COMMAND field and the argument in the ARGUMENT field. If you don't fill out an argument then the command will just run as intended without any additional information sent to it.&#x20;
-
-
 
 Example: Add the word "fix" into the command field and leave the argument blank. This command repairs your vehicle and does not take any arguments\
 \

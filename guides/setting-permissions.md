@@ -18,7 +18,7 @@ txAdmin should automatically set the server owner as the highest permission leve
 
 ## Server Config
 
-* At the bottom of your server.cfg file you will see a permissions section
+-   At the bottom of your server.cfg file you will see a permissions section
 
 ```
 ## Permissions ##
@@ -34,14 +34,14 @@ add_ace qbcore.god command allow # Allow all commands
 # Inheritance
 add_principal qbcore.god group.admin # Allow gods access to the main admin group used to get all default permissions
 add_principal qbcore.god qbcore.admin # Allow gods access to admin commands
-add_principal qbcore.admin qbcore.mod # Allow admins access to mod commands 
+add_principal qbcore.admin qbcore.mod # Allow admins access to mod commands
 ```
 
 ### Different types of identifiers
 
-* FiveM ID
-* Rockstar license (what qbcore uses)
-* Discord ID
+-   FiveM ID
+-   Rockstar license (what qbcore uses)
+-   Discord ID
 
 To get a FiveM or GTA license you can look up the player on your txAdmin web panel
 
@@ -83,11 +83,11 @@ While you have permissions you can set users permissions either using commands o
 
 <summary>Setting permissions using the command </summary>
 
-* While in the server type in the command `/addpermission [id] [addpermissions]`
+-   While in the server type in the command `/addpermission [id] [addpermissions]`
 
 <!---->
 
-* It will look something like this `/addpermission 1 god`
+-   It will look something like this `/addpermission 1 god`
 
 </details>
 
@@ -95,19 +95,19 @@ While you have permissions you can set users permissions either using commands o
 
 <summary>Setting permissions through the admin menu</summary>
 
-* In chat enter the command `/admin`
+-   In chat enter the command `/admin`
 
 <!---->
 
-* Access the "Player Management" tab and select the player you want to give permissions to
+-   Access the "Player Management" tab and select the player you want to give permissions to
 
 <!---->
 
-* Locate a menu item called "Permissions"
+-   Locate a menu item called "Permissions"
 
 <!---->
 
-* Set the user group for that user then press "submit"
+-   Set the user group for that user then press "submit"
 
 </details>
 
@@ -130,4 +130,3 @@ end, 'leo')
 ```
 
 So now when you add this command using the qbcore function it will automatically generate an ace called qbcore.leo with an ace of command.spikes! Now you can add a principal of a player with `add_principal identifier.license:xxxx qbcore.leo` and now that command will be restricted to only those with that permission as well as remove the chat suggestion for anyone without this permission! Imagine if you used this when setting a players job or when a player clocked in/out to dynamically remove the permission. This also completely eliminates the need to ever check job permissions on a command like this because the command itself will already be restricted
-

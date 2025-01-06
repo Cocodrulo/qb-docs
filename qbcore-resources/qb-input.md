@@ -6,7 +6,7 @@ description: Enter stuff here
 
 ## Introduction
 
-* An interactive NUI menu that allows users to input various values and can be used in all sorts of ways
+-   An interactive NUI menu that allows users to input various values and can be used in all sorts of ways
 
 ## Preview
 

@@ -6,11 +6,11 @@ description: Pew pew
 
 ## Introduction
 
-* Handles the logic for weapon events
-* Change weapon damage
-* Reloading logic
-* Weapon durability
-* Weapon attachments
+-   Handles the logic for weapon events
+-   Change weapon damage
+-   Reloading logic
+-   Weapon durability
+-   Weapon attachments
 
 ## Configuration
 
@@ -32,7 +32,7 @@ Config.DurabilityBlockedWeapons = { -- these will never break
 ```lua
 Config.DurabilityMultiplier = { -- degrade multiplier, higher = quicker degrade
 	-- Melee
-	-- ['weapon_unarmed'] 				 = 0.15, 
+	-- ['weapon_unarmed'] 				 = 0.15,
 	['weapon_dagger'] 				 = 0.15,
 	['weapon_bat'] 				 	 = 0.15,
 	['weapon_bottle'] 				 = 0.15,

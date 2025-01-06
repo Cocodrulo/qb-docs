@@ -6,7 +6,7 @@ description: Slices of pie?
 
 ## Introduction
 
-* Similar to [qb-menu.md](qb-menu.md "mention") , this NUI menu allows for multiple actions to be done and is configurable based on job
+-   Similar to [qb-menu.md](qb-menu.md "mention") , this NUI menu allows for multiple actions to be done and is configurable based on job
 
 {% hint style="success" %}
 This menu can be heavily modified to change its behavior based on a number of different scenarios such as where the player is located and more!

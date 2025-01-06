@@ -6,7 +6,7 @@ description: Simon says press this key
 
 ## Introduction
 
-* This is a JavaScript mini game that prompts players to press certain keys within a set amount of time and returns how many times they messed up
+-   This is a JavaScript mini game that prompts players to press certain keys within a set amount of time and returns how many times they messed up
 
 ## Preview
 
