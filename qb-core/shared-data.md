@@ -5,7 +5,7 @@ description: View the data that you can access with your QBCore object
 # 📄 Shared Data
 
 {% hint style="info" %}
-This data can be modified through the files them selvers (and then restarting the server) or through the exports mentioned in [shared exports](/qb-core/shared-exports.md).
+This data can be modified through the files them selvers (and then restarting the server) or through the exports mentioned in [shared exports](/qb-core/exports.md) for this purpose.
 {% endhint %}
 
 ### Items
