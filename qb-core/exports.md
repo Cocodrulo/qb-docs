@@ -209,7 +209,7 @@ exports['qb-core']:UpdateJob(string, jobtable) -> boolean, string
 
 ```lua
 -- Example
-exports['qb-core']:UpdateJob({
+exports['qb-core']:UpdateJob('sheriff', {
     label = 'Sheriff',
     defaultDuty = true,
     offDutyPay = false,
@@ -340,16 +340,126 @@ exports['qb-core']:RemoveItem('repairkit')
 
 ### AddGang
 
+Adds a new gang to `QBCore.Shared.Gangs`. Return whether the addition was succesfully made and a info message.
+
+{% hint style="info" %}
+You should see how a gang is defined in [shared data](/qb-core/shared-data.md#gangs).
+{% endhint %}
+
+```lua
+exports['qb-core']:AddGang(string, gangtable) -> boolean, string
+```
+
+```lua
+-- Example
+exports['qb-core']:AddJob('lostmc', {
+    label = 'The Lost MCs',
+    grades = {
+        ['0'] = { name = 'Recruit' },
+        ['1'] = { name = 'Enforcer' },
+        ['2'] = { name = 'Shot Caller' },
+        ['3'] = { name = 'Boss', isboss = true },
+    },
+})
+```
+
 ### AddGangs
+
+Adds multiple gangs to `QBCore.Shared.Gangs`. Return whether the additions were succesfully made and a info message.
+
+{% hint style="info" %}
+You should see how a gang is defined in [shared data](/qb-core/shared-data.md#gangs).
+{% endhint %}
+
+```lua
+exports['qb-core']:AddGangs(gangtable[]) -> boolean, string
+```
+
+```lua
+-- Example
+exports['qb-core']:AddGangs({
+    lostmc = {
+        label = 'The Lost MCs',
+        grades = {
+            ['0'] = { name = 'Recruit' },
+            ['1'] = { name = 'Enforcer' },
+            ['2'] = { name = 'Shot Caller' },
+            ['3'] = { name = 'Boss', isboss = true },
+        },
+    },
+    ballas = {
+        label = 'Ballas',
+        grades = {
+            ['0'] = { name = 'Recruit' },
+            ['1'] = { name = 'Enforcer' },
+            ['2'] = { name = 'Shot Caller' },
+            ['3'] = { name = 'Boss', isboss = true },
+        },
+    }
+})
+```
 
 ### RemoveGang
 
+Remove an existing gang from `QBCore.Shared.Gangs`. Return whether removal was succesfully made and a info message.
+
+```lua
+exports['qb-core']:RemoveGang(string) -> boolean, string
+```
+
+```lua
+-- Example
+exports['qb-core']:RemoveGang('lostmc')
+```
+
 ### UpdateGang
+
+Updates an existing gang from `QBCore.Shared.Gangs`. Return whether the update was succesfully made and a info message.
+
+{% hint style="info" %}
+You should see how a gang is defined in [shared data](/qb-core/shared-data.md#gangs).
+{% endhint %}
+
+```lua
+exports['qb-core']:UpdateGang(string, gangtable) -> boolean, string
+```
+
+```lua
+-- Example
+exports['qb-core']:UpdateGang('ballas', {
+    label = 'Purple Ballas',
+    grades = {
+        ['0'] = { name = 'Recruit' },
+        ['1'] = { name = 'Enforcer' },
+        ['2'] = { name = 'Shot Caller bb' },
+        ['3'] = { name = 'Boss, my man', isboss = true },
+    },
+})
+```
 
 ### GetCoreVersion
 
-### ExploitBan
+Return the version of the QBCore framework.
 
+```lua
+exports['qb-core']:GetCoreVersion() -> string
 ```
 
+```lua
+-- Example
+local version = exports['qb-core']:GetCoreVersion()
+version -- '1.2.6'
+```
+
+### ExploitBan
+
+Bans someone because of an script exploit.
+
+```lua
+exports['qb-core']:ExploitBan(number, string)
+```
+
+```lua
+-- Example
+exports['qb-core']:ExploitBan(2, "qb-banking")
 ```
