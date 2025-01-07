@@ -25,6 +25,10 @@ QBCore = exports['qb-core']:GetCoreObject()
 
 Displays a text in the screen in a specific position (Default: left).
 
+{% hint style="success" %}
+Accepted positions: Left, Right, Top
+{% endhint %}
+
 ```lua
 exports['qb-core']:DrawText(string, string?)
 ```
@@ -37,6 +41,10 @@ exports['qb-core']:DrawText('QBCore is amazing', 'left')
 ### ChangeText
 
 Changes the text that is being drawn and its position (Default: left).
+
+{% hint style="success" %}
+Accepted positions: Left, Right, Top
+{% endhint %}
 
 ```lua
 exports['qb-core']:ChangeText(string, string?)
