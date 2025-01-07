@@ -1,94 +1,97 @@
 # Docs rework
 
-- [ ] **Main**
-  - [ ] README (Intro)
-  - [ ] rent a fivem server
-  - [ ] SUMMARY (lateral bar)
+-   [ ] **Main**
 
-- [ ] **Guides**
-  - [ ] linux
-  - [ ] windows
-  - [ ] vscode
-  - [ ] miscellaneous
-  - [ ] script optimizations
-  - [ ] perms
-  - [ ] useful links
+    -   [ ] README (Intro)
+    -   [ ] rent a fivem server
+    -   [ ] SUMMARY (lateral bar)
 
-- [ ] **QBCore**
-  - [x] Shared Data
-  - [x] Shared Functions
-  - [x] Exports
-  - [ ] Player
-  - [ ] Client Functions
-  - [ ] Client Events
-  - [ ] Server Functions
-  - [ ] Server Events
-  - [ ] Commands
+-   [ ] **Guides**
 
-- [ ] **QBCore Resources**
-  - [] qb-adminmenu
-  - [] qb-ambulancejob
-  - [] qb-apartments
-  - [] qb-banking
-  - [] qb-bankrobbery
-  - [] qb-busjob
-  - [] qb-cityhall
-  - [] qb-clothing
-  - [] qb-commandbinding
-  - [] qb-crypto
-  - [] qb-customs
-  - [] qb-diving
-  - [] qb-doorlock
-  - [] qb-drugs
-  - [] qb-emotes
-  - [] qb-fitbit
-  - [] qb-fuel
-  - [] qb-garages
-  - [] qb-garbagejob
-  - [] qb-hotdogjob
-  - [] qb-houserobbery
-  - [] qb-houses
-  - [] qb-hud
-  - [] qb-input
-  - [] qb-interior
-  - [] qb-interior
-  - [] qb-inventory
-  - [] qb-jewelry
-  - [] qb-keyminigame
-  - [] qb-lapraces
-  - [] qb-loading
-  - [] qb-lockpick
-  - [] qb-management
-  - [] qb-mechanicjob
-  - [] qb-menu
-  - [] qb-multicharacter
-  - [] qb-newsjob
-  - [] qb-pawnshop
-  - [] qb-phone
-  - [] qb-policejob
-  - [] qb-printer
-  - [] qb-prison
-  - [] qb-radialmenu
-  - [] qb-radio
-  - [] qb-recyclejob
-  - [] qb-scoreboard
-  - [] qb-scrapyard
-  - [] qb-shops
-  - [] qb-skillbar
-  - [] qb-smallresources
-  - [] qb-spawn
-  - [] qb-storerobbery
-  - [] qb-streetraces
-  - [] qb-target
-  - [] qb-taxijob
-  - [] qb-towjob
-  - [] qb-truckerjob
-  - [] qb-tunership
-  - [] qb-vehiclefailure
-  - [] qb-vehiclekeys
-  - [] qb-vehiclesales
-  - [] qb-vehicleshop
-  - [] qb-vineyard
-  - [] qb-weapons
-  - [] qb-weathersync
-[] qb-weed
+    -   [ ] linux
+    -   [ ] windows
+    -   [ ] vscode
+    -   [ ] miscellaneous
+    -   [ ] script optimizations
+    -   [ ] perms
+    -   [ ] useful links
+
+-   [ ] **QBCore**
+
+    -   [x] Shared Data
+    -   [x] Shared Functions
+    -   [x] Exports
+    -   [ ] Player
+    -   [ ] Client Functions
+    -   [ ] Client Events
+    -   [ ] Server Functions
+    -   [ ] Server Events
+    -   [ ] Commands
+
+-   [ ] **QBCore Resources**
+    -   [ ] qb-adminmenu
+    -   [ ] qb-ambulancejob
+    -   [ ] qb-apartments
+    -   [ ] qb-banking
+    -   [ ] qb-bankrobbery
+    -   [ ] qb-busjob
+    -   [ ] qb-cityhall
+    -   [ ] qb-clothing
+    -   [ ] qb-commandbinding
+    -   [ ] qb-crypto
+    -   [ ] qb-customs
+    -   [ ] qb-diving
+    -   [ ] qb-doorlock
+    -   [ ] qb-drugs
+    -   [ ] qb-emotes
+    -   [ ] qb-fitbit
+    -   [ ] qb-fuel
+    -   [ ] qb-garages
+    -   [ ] qb-garbagejob
+    -   [ ] qb-hotdogjob
+    -   [ ] qb-houserobbery
+    -   [ ] qb-houses
+    -   [ ] qb-hud
+    -   [ ] qb-input
+    -   [ ] qb-interior
+    -   [ ] qb-interior
+    -   [ ] qb-inventory
+    -   [ ] qb-jewelry
+    -   [ ] qb-keyminigame
+    -   [ ] qb-lapraces
+    -   [ ] qb-loading
+    -   [ ] qb-lockpick
+    -   [ ] qb-management
+    -   [ ] qb-mechanicjob
+    -   [ ] qb-menu
+    -   [ ] qb-multicharacter
+    -   [ ] qb-newsjob
+    -   [ ] qb-pawnshop
+    -   [ ] qb-phone
+    -   [ ] qb-policejob
+    -   [ ] qb-printer
+    -   [ ] qb-prison
+    -   [ ] qb-radialmenu
+    -   [ ] qb-radio
+    -   [ ] qb-recyclejob
+    -   [ ] qb-scoreboard
+    -   [ ] qb-scrapyard
+    -   [ ] qb-shops
+    -   [ ] qb-skillbar
+    -   [ ] qb-smallresources
+    -   [ ] qb-spawn
+    -   [ ] qb-storerobbery
+    -   [ ] qb-streetraces
+    -   [ ] qb-target
+    -   [ ] qb-taxijob
+    -   [ ] qb-towjob
+    -   [ ] qb-truckerjob
+    -   [ ] qb-tunership
+    -   [ ] qb-vehiclefailure
+    -   [ ] qb-vehiclekeys
+    -   [ ] qb-vehiclesales
+    -   [ ] qb-vehicleshop
+    -   [ ] qb-vineyard
+    -   [ ] qb-weapons
+    -   [ ] qb-weathersync
+    -   [ ] qb-weed
